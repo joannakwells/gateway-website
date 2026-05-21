@@ -1,0 +1,477 @@
+<!-- END sections: settings-group --><script src="//www.davidaustinroses.com/cdn/shop/t/114/assets/vendor.klevu.js?v=85498608984112621031779288292" defer></script>
+<script src="//www.davidaustinroses.com/cdn/shop/t/114/assets/app.js?v=104550780807766315301760520086" defer></script>
+  <!-- START VERGIC ENGAGE SCRIPT -->
+  <script type="application/javascript">
+    (function (server, psID) {
+      var s = document.createElement('script');
+      s.type = 'application/javascript';
+      s.src = server + '/' + psID + '/ps.js';
+      document.getElementsByTagName('head')[0].appendChild(s);
+    })('https://account.psplugin.com', '18A02D1C-355D-4547-869C-FC1B0832CDE4');
+  </script>
+  <!-- END VERGIC ENGAGE SCRIPT -->
+
+
+<!-- Ometria Script --><script>
+  if (typeof ometria == 'undefined') window.ometria = {};
+  ometria.raw_data={
+  template: "index",
+  cart_total:0,
+  cart_count:0,
+  cart:[],
+  product_id:null,
+  search_count:null,
+  search_terms:null,
+  collection_id:null,
+  collection_handle:null,
+  page_handle:null,
+  collection_count:null,
+  current_page:1,
+  shop_currency:"USD",
+  customer_email:null
+  };
+  
+  (function(){
+  var url=window.location.protocol+"//cdn.ometria.com/tags/eaf63d161bab4006.js?v=2022121409dsfds";
+  setTimeout(function(){var sc=document.createElement('script');sc.src=url;sc.setAttribute('async','true');
+  document.getElementsByTagName("head")[0].appendChild(sc);},15);
+  })();
+</script>
+<!-- End Ometria Script -->
+
+<div id="pixlee_init_container"></div>
+<script>
+  function receiveMessage(event) {
+    // only listen to events coming from Pixlee
+    if (!event.data) {
+      return;
+    }
+    try {
+      const message = JSON.parse(event.data);
+
+      switch (message.eventName) {
+        case 'widgetLoaded':
+          Pixlee.renderFrame();
+          break;
+        default:
+          return;
+      }
+    } catch (error) {
+      // error during JSON.parse, skip
+    }
+  }
+  window.addEventListener('message', receiveMessage);
+</script><script>
+  // Set list_id based on page type
+  
+      window.addEventListener('load', () => {
+        const sections = document.querySelectorAll('.template-index main > *');
+        
+        // Use requestIdleCallback for better performance
+        const setupObserver = () => {
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(async (entry) => {
+              if (entry.isIntersecting) {
+                try {
+                  const trackingElement = entry.target.querySelector('#tracking-promotion-data');
+                  if (!trackingElement) return;
+                  
+                  const data = JSON.parse(trackingElement.textContent);
+                  
+                  // Always track the section view if tracking data exists
+                  // Collect product data if available, but don't require it
+                  const elements = entry.target.querySelectorAll('a[href^="/products/"]');
+                  let products = [];
+                  
+                  if (elements.length) {
+                    // Optimize by using Set for unique handles
+                    const handles = [...new Set(
+                      Array.from(elements)
+                        .map(el => {
+                          try {
+                            return new URL(el.href).pathname.split('/').pop();
+                          } catch (e) {
+                            // Handle relative URLs
+                            return el.href.split('/').pop();
+                          }
+                        })
+                        .filter(Boolean)
+                    )];
+                    
+                    if (handles.length) {
+                      // Batch product fetches for better performance
+                      const rootPath = Shopify.routes.root || '/';
+                      products = await Promise.all(
+                        handles.map(handle => 
+                          fetch(`${rootPath}products/${handle}.js`)
+                            .then(response => response.ok ? response.json() : null)
+                            .catch(() => null)
+                        )
+                      ).then(results => results.filter(Boolean));
+                    }
+                  }
+                  
+                  // Always publish section_view if we have tracking data
+                  Shopify.analytics.publish('section_view', { 
+                    tracking: { ...data }, 
+                    products 
+                  });
+                } catch (e) {
+                  console.error('Error tracking section view:', e);
+                }
+              }
+            });
+          }, {
+            threshold: 0.5,
+            rootMargin: `-${document.querySelector('header')?.clientHeight}px 0px 0px 0px`
+          });
+          
+          sections.forEach((section) => observer.observe(section));
+        };
+        
+        // Use requestIdleCallback if available or setTimeout as fallback
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(setupObserver);
+        } else {
+          setTimeout(setupObserver, 200);
+        }
+      });
+  
+
+  // Global click handler
+  window.addEventListener('load', () => {
+    let isProcessingClick = false;
+    
+    const handleClick = (event) => {
+      if (isProcessingClick) return;
+      isProcessingClick = true;
+      
+      try {
+        // Track both events independently without returns that would short-circuit execution
+        let sectionInteractionTracked = false;
+        let productSelectionTracked = false;
+        
+        // 1. Section interaction tracking
+        
+          const section = event.target.closest('.template-index main > *');
+          if (section) {
+            const trackingElement = section.querySelector('#tracking-promotion-data');
+            if (trackingElement) {
+              try {
+                const data = JSON.parse(trackingElement.textContent);
+                
+                // Determine the closest meaningful click element
+                const closest = event.target.closest('a, button');
+                if (closest) {
+                  let type = null;
+                  let productHandle = null;
+                  
+                  if (closest.tagName === 'BUTTON' && (closest.hasAttribute('data-next') || closest.hasAttribute('data-prev'))) {
+                    type = 'arrow';
+                  } else if (closest.tagName === 'A') {
+                    const url = closest.href;
+                    
+                    if (url.includes('/blogs/')) {
+                      type = 'article';
+                    } else if (url.includes('/products/')) {
+                      type = 'product';
+                      // Extract product handle from the URL
+                      try {
+                        productHandle = new URL(url).pathname.split('/').pop();
+                      } catch (e) {
+                        // Handle relative URLs
+                        productHandle = url.split('/').pop();
+                      }
+                    } else {
+                      // Check if the anchor contains only text (no child elements)
+                      const isTextOnly = Array.from(closest.childNodes).every(node => node.nodeType !== 1);
+                      type = isTextOnly ? 'cta' : 'item';
+                    }
+                  } else if (closest.tagName === 'BUTTON') {
+                    type = 'cta';
+                  }
+                  
+                  // Image click check (lower priority than 'arrow')
+                  if (event.target.tagName === 'IMG' && type === 'item') {
+                    type = 'image';
+                  }
+                  
+                  // IMPORTANT CHANGE: For section_interaction, immediately send the product handle
+                  // without waiting for the fetch to complete
+                  if (type) {
+                    Shopify.analytics.publish('section_interaction', {
+                      tracking: { ...data },
+                      type,
+                      handle: productHandle || null // Send handle directly instead of products array
+                    });
+                    sectionInteractionTracked = true;
+                  }
+                }
+              } catch (e) {
+                console.error('Error processing section interaction:', e);
+              }
+            }
+          }
+        
+
+        // 2. Product card tracking (always runs regardless of section_interaction)
+        const productCard = event.target.closest('product-card');
+        if (productCard) {
+          const link = productCard.querySelector('a');
+          if (link) {
+            const href = link.getAttribute('href');
+            if (href) {
+              const extractHandle = (input) => input.startsWith('/') ? input.split('?')[0] : new URL(input).pathname.split('?')[0];
+              const handle = extractHandle(href);
+              
+              // Determine the correct list ID
+              let listId = '';
+              if (productCard.closest('search-modal')) {
+                listId = 'search_results';
+              } else if (productCard.closest('recently-viewed')) {
+                listId = 'previously_viewed';
+              }
+
+              // Publish product selection event
+              Shopify.analytics.publish('custom_product_selected', {
+                handle,
+                list_id: listId,
+                collection_title:null});
+              productSelectionTracked = true;
+            }
+          }
+        }
+        
+        // Log if no events were tracked (helpful for debugging)
+        if (!sectionInteractionTracked && !productSelectionTracked) {
+          // Optional: console.log('No tracking events triggered for this click');
+        }
+      } finally {
+        // Allow subsequent clicks after a small delay
+        setTimeout(() => {
+          isProcessingClick = false;
+        }, 100);
+      }
+    };
+    
+    // Use passive event listener where possible for better performance
+    document.addEventListener('click', handleClick, { 
+      capture: true
+    });
+  });
+</script>
+
+
+<script>
+  window.addEventListener('load', () => {
+    const header = document.querySelector('header');
+    if (!header) return;
+
+    header.addEventListener('click', e => {
+      const link = e.target.closest('[data-tracking-link]');
+      if (!link || !header.contains(link)) return;
+
+      const level = link.getAttribute('data-tracking-level') || '';
+      const eventName =
+        level.trim() === '1' ? 'custom_navigation_click' : 'custom_navigation_subclick';
+      const dataTrackingLink = link.getAttribute('data-tracking-link')?.trim();
+      const selected_item = dataTrackingLink !== '' ? dataTrackingLink : link.innerText.trim();
+
+      Shopify.analytics?.publish?.(eventName, {
+        selected_item,
+        ...(link.hasAttribute('data-tracking-top') && {
+          top_category: link.getAttribute('data-tracking-top'),
+        }),
+      });
+    });
+  });
+</script><script>
+  // Custom event tracking function
+  window.addEventListener('load', () => {
+    window.trackCustomEvent = function (eventName, params = {}) {
+      if (typeof Shopify === 'undefined' || !Shopify.analytics || !Shopify.analytics.publish) {
+        console.warn('Shopify analytics not available');
+        return;
+      }
+
+      // Publish the custom event
+      Shopify.analytics.publish('custom_event', {
+        event_name: eventName,
+        ...params,
+      });
+
+      // Optional: push to dataLayer immediately too
+      if (window.dataLayer) {
+        window.dataLayer.push({
+          event: eventName,
+          ...params,
+        });
+      }
+    };
+  });
+</script>
+<div
+  id="shop-the-scene-overlay"
+  class="fixed inset-0 bg-black bg-opacity-50 opacity-0 pointer-events-none z-40"
+></div>
+
+<div
+  id="shop-the-scene-drawer"
+  class="fixed top-0 right-0 h-full mobile:w-full w-drawer [--columns:3] tablet:[--columns:2] bg-background text-background transform translate-x-full transition-transform duration-300 ease-in-out z-50 overflow-y-auto"
+>
+  <div
+    class="min-h-header text-links flex items-center justify-between py-lg px-xl border-b border-border font-heading text-heading-sm tabet:text-heading-md leading-none relative"
+  >
+    <div>Translation missing: en.general.shop_the_scene</div>
+    <label
+      id="drawer-close"
+      data-role="button"
+      aria-label="Close"
+      class="cursor-pointer flex items-center"
+    ><svg
+      class=" max-w-full"
+      role="presentation"
+      width="15"
+      height="16"
+      viewBox="0 0 15 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M1.24789 0.752159L0.187228 1.81282L6.3744 7.99999L0.187195 14.1872L1.24785 15.2479L7.43506 9.06065L13.6223 15.2478L14.6829 14.1872L8.49572 7.99999L14.6829 1.81283L13.6222 0.752165L7.43506 6.93933L1.24789 0.752159Z" fill="currentColor"/>
+    </svg></label>
+  </div>
+  <div
+    class="p-lg gap-md grid grid-cols-2 text-text"
+    id="drawer-products-container"
+    style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));"
+  ></div>
+</div>
+
+<style>
+  #shop-the-scene-drawer.is-open {
+    transform: translateX(0);
+  }
+  #shop-the-scene-overlay.is-active {
+    opacity: 0.5;
+    pointer-events: auto;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const triggers = document.querySelectorAll('.shop-the-scene-trigger');
+    const drawer = document.getElementById('shop-the-scene-drawer');
+    const closeButton = document.getElementById('drawer-close');
+    const productsContainer = document.getElementById('drawer-products-container');
+    const overlay = document.getElementById('shop-the-scene-overlay');
+
+    if (triggers.length > 0 && drawer && closeButton) {
+      triggers.forEach(trigger => {
+        trigger.addEventListener('click', () => {
+          const productsData = JSON.parse(trigger.dataset.products);
+          drawer.classList.add('is-open');
+          overlay.classList.add('is-active');
+          document.body.style.overflow = 'hidden';
+          renderProductsInDrawer(productsData);
+        });
+      });
+
+      closeButton.addEventListener('click', () => {
+        drawer.classList.remove('is-open');
+        overlay.classList.remove('is-active');
+        document.body.style.overflow = '';
+      });
+
+      // Optional: close drawer if overlay is clicked
+      overlay.addEventListener('click', () => {
+        drawer.classList.remove('is-open');
+        overlay.classList.remove('is-active');
+        document.body.style.overflow = '';
+      });
+    }
+
+    function renderProductsInDrawer(products) {
+      productsContainer.innerHTML = '';
+      products.forEach(product => {
+        const productElement = document.createElement('div');
+
+        const priceHTML = product.price_varies
+          ? `${Shopify.formatMoney(product.price_min)} - ${Shopify.formatMoney(product.price_max)}`
+          : Shopify.formatMoney(product.price);
+
+        const fragranceStrength = product.fragrance_strength || 0;
+
+        // Build fragrance strength bars dynamically
+        let barsHTML = '';
+        for (let i = 1; i <= 5; i++) {
+          barsHTML += `
+        <div class="w-[12px] h-[6px] shrink-0 
+          ${i <= fragranceStrength ? 'bg-icons' : 'bg-grey-lines'} 
+          ${i === 1 ? 'rounded-l-full' : ''} 
+          ${i === 5 ? 'rounded-r-full' : ''}">
+        </div>`;
+        }
+
+        productElement.innerHTML = `
+      <a href="${product.url}" class="inline-block">
+        <div class="aspect-[66/79] max-h-[243px]">
+          <img src="${product.featured_image.src}" class="rounded-sm w-full h-full object-cover" alt="${product.title}">
+        </div>
+        <div class="p-sm border-border border-x desktop:border-b">
+          <p class="block font-domaine text-heading-xs">${product.title}</p>
+          <p class="pt-xxs text-lg font-heading">${product.type}</p>
+          <p class="pt-sm inline-block text-base">${priceHTML}</p>
+        </div>
+        <div class="p-sm border-border border-x border-b flex desktop:hidden">
+  <div class="border-t border-border flex w-full">
+    <div class="text-sm w-1/2 pt-sm"> 
+      Fragrance strength
+    </div>
+    <div class="text-sm flex items-center gap-1 justify-center w-1/2">
+      ${barsHTML}
+    </div>
+  </div>
+</div>
+      </a>
+    `;
+
+        productsContainer.appendChild(productElement);
+      });
+    }
+  });
+</script>
+<div id="shopify-block-Aemp4K204NG5MWWxCU__9431864395560886015" class="shopify-block shopify-app-block">
+
+<script>
+  window.__POLAR_CONFIG__ = {
+    debug: false,
+    shop: "davidaustinroses-us.myshopify.com"
+  };
+</script>
+
+<script src="https://cdn.shopify.com/extensions/019dd459-30c0-7ea3-9cd7-64886499e11b/polar-analytics-22/assets/polar-cart-injector.js" async></script>
+
+</div><div id="shopify-block-Ad3lHck9Ccldkb2R1R__12526071353035850722" class="shopify-block shopify-app-block">
+  <script defer src="https://backinstock.useamp.com/widget/38368_1767156443.js?category=bis&v=6"></script>
+
+
+<script id="back-in-stock-helper-embedded">
+  var _BISConfig = _BISConfig || {};
+
+  
+
+  
+</script>
+
+<script id="preorders-helper-embedded">
+  
+</script>
+
+
+<script defer type="module" src="https://cdn.shopify.com/extensions/019d6aa0-a7a5-7af4-886e-88369fd7bdad/back-in-stock-56/assets/preorder-product-page-updater.js"></script>
+
+
+
+
+</div></body>
+</html>

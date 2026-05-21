@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Austin Roses | English Roses</title>
+    <meta
+      name="description"
+      content="Breeders of the English Roses. Specialist growers of shrub, climbing and old roses."
+    >
+    <link rel="preconnect" href="https://www.davidaustinroses.com">
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="announcement">
+      <span>Free standard shipping on rose orders over $150</span>
+      <span>Spring dispatch now open</span>
+      <span>Expert rose care advice</span>
+    </div>
+
+    <header class="site-header">
+      <button class="icon-button menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="brand" href="#home" aria-label="David Austin Roses home">
+        <img
+          src="https://www.davidaustinroses.com/cdn/shop/t/114/assets/logo-horizontal_960x.png?v=69957024068637987401760520088"
+          alt="David Austin Roses"
+        >
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#shop">Shop Roses</a>
+        <a href="#collections">Collections</a>
+        <a href="#care">Rose Care</a>
+        <a href="#journal">Journal</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" aria-label="Search">Search</button>
+        <button class="cart-button" type="button">Cart <span id="cartCount">0</span></button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-label="Gabriel Oak rose garden">
+        <picture>
+          <source
+            media="(max-width: 700px)"
+            srcset="https://www.davidaustinroses.com/cdn/shop/files/GabrielOak_LowtherCastle_June25_134117_1.jpg?v=1777547511&width=900"
+          >
+          <img
+            src="https://www.davidaustinroses.com/cdn/shop/files/GabrielOak_LowtherCastle_June25_134117.jpg?v=1777547508&width=1920"
+            alt="Pink English roses growing in a summer garden"
+          >
+        </picture>
+        <div class="hero-copy">
+          <p>New season English roses</p>
+          <h1>Bring the romance of an English garden home</h1>
+          <a class="button button-light" href="#shop">Shop bestselling roses</a>
+        </div>
+      </section>
+
+      <section class="section collection-band" id="collections">
+        <div class="section-heading">
+          <p>Start with a mood</p>
+          <h2>Roses for every garden</h2>
+        </div>
+        <div class="collection-grid">
+          <a class="collection-card" href="#shop">
+            <img src="https://www.davidaustinroses.com/cdn/shop/files/ba90f177d3db075c4aaa3352d4513cbc.jpg?v=1759276135&width=700" alt="Pink roses">
+            <span>Shrub Roses</span>
+          </a>
+          <a class="collection-card" href="#shop">
+            <img src="https://www.davidaustinroses.com/cdn/shop/files/6c5100332328d13d93a80cb2bb311a30_993d6e8a-a473-4282-b423-65ecd07349d9.jpg?v=1759323340&width=700" alt="Cream climbing roses">
+            <span>Climbing Roses</span>
+          </a>
+          <a class="collection-card" href="#shop">
+            <img src="https://www.davidaustinroses.com/cdn/shop/files/81da3e1a81b0bec23b7c88f04bbd4a69.jpg?v=1759276221&width=700" alt="Apricot roses">
+            <span>Fragrant Roses</span>
+          </a>
+          <a class="collection-card" href="#shop">
+            <img src="https://www.davidaustinroses.com/cdn/shop/files/050c216c6d31b3ad99a45b1dcc5d8852.jpg?v=1759276134&width=700" alt="White roses">
+            <span>Roses for Pots</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section split-story">
+        <div>
+          <p class="eyebrow">Breeders of the English Roses</p>
+          <h2>Sixty years of fragrance, beauty and repeat flowering</h2>
+        </div>
+        <p>
+          David Austin combined the charm and scent of old roses with the repeat flowering of modern varieties.
+          This rebuilt site keeps that editorial, garden-led experience while making the codebase simple to own.
+        </p>
+      </section>
+
+      <section class="section" id="shop">
+        <div class="section-heading inline">
+          <div>
+            <p>Shop roses</p>
+            <h2>Featured English roses</h2>
+          </div>
+          <div class="filters" aria-label="Filter roses by color">
+            <button class="filter is-active" data-filter="all">All</button>
+            <button class="filter" data-filter="pink">Pink</button>
+            <button class="filter" data-filter="apricot">Apricot</button>
+            <button class="filter" data-filter="white">White</button>
+            <button class="filter" data-filter="red">Red</button>
+          </div>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section class="garden-finder">
+        <img
+          src="https://www.davidaustinroses.com/cdn/shop/files/US_2Q_lifestyle-19.jpg?v=1776427801&width=900"
+          alt="Roses in a terracotta pot"
+        >
+        <div>
+          <p class="eyebrow">Garden finder</p>
+          <h2>Find the rose that fits your space</h2>
+          <p>
+            Browse by color, height, fragrance, shade tolerance and flowering habit. The next rebuild phase can
+            connect these filters to Shopify products or a local catalog JSON file.
+          </p>
+          <a class="button" href="#shop">Explore roses</a>
+        </div>
+      </section>
+
+      <section class="section care-section" id="care">
+        <div class="section-heading">
+          <p>Rose care</p>
+          <h2>Seasonal advice from planting to pruning</h2>
+        </div>
+        <div class="care-grid" id="careGrid"></div>
+      </section>
+
+      <section class="newsletter">
+        <div>
+          <p class="eyebrow">Stay in bloom</p>
+          <h2>Garden notes, rose launches and care reminders</h2>
+        </div>
+        <form id="newsletterForm">
+          <label for="email">Email address</label>
+          <div class="email-row">
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            <button class="button" type="submit">Sign up</button>
+          </div>
+          <p class="form-message" id="formMessage" role="status"></p>
+        </form>
+      </section>
+
+      <section class="section journal" id="journal">
+        <div class="section-heading">
+          <p>From the journal</p>
+          <h2>Inspiration for better gardens</h2>
+        </div>
+        <div class="article-grid" id="articleGrid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <img
+          src="https://www.davidaustinroses.com/cdn/shop/t/114/assets/logo-horizontal_960x.png?v=69957024068637987401760520088"
+          alt="David Austin Roses"
+        >
+        <p>Breeders of the English Roses. Specialist growers of old, shrub, species, climbing and modern roses.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="#shop">Shop</a>
+        <a href="#care">Care Guides</a>
+        <a href="#journal">Journal</a>
+        <a href="#home">Back to top</a>
+      </nav>
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
