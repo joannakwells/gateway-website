@@ -9,6 +9,7 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
+if (! function_exists('gateway_theme_setup')) {
 function gateway_theme_setup() {
     load_theme_textdomain('gateway', get_template_directory() . '/languages');
 
@@ -41,8 +42,10 @@ function gateway_theme_setup() {
         'footer'  => __('Footer Menu', 'gateway'),
     ]);
 }
+}
 add_action('after_setup_theme', 'gateway_theme_setup');
 
+if (! function_exists('gateway_widgets_init')) {
 function gateway_widgets_init() {
     register_sidebar([
         'name'          => __('Footer Widget Area', 'gateway'),
@@ -54,8 +57,10 @@ function gateway_widgets_init() {
         'after_title'   => '</h2>',
     ]);
 }
+}
 add_action('widgets_init', 'gateway_widgets_init');
 
+if (! function_exists('gateway_customize_register')) {
 function gateway_customize_register($wp_customize) {
     $wp_customize->add_section('gateway_theme_options', [
         'title'    => __('Gateway Theme Options', 'gateway'),
@@ -83,5 +88,6 @@ function gateway_customize_register($wp_customize) {
         'section' => 'gateway_theme_options',
         'type'    => 'text',
     ]);
+}
 }
 add_action('customize_register', 'gateway_customize_register');

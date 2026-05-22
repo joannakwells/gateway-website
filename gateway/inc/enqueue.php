@@ -9,6 +9,7 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
+if (! function_exists('gateway_enqueue_assets')) {
 function gateway_enqueue_assets() {
     $version = wp_get_theme()->get('Version');
 
@@ -33,5 +34,6 @@ function gateway_enqueue_assets() {
         $version,
         true
     );
+}
 }
 add_action('wp_enqueue_scripts', 'gateway_enqueue_assets');

@@ -14,7 +14,11 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class('min-h-screen font-body text-base leading-none color-primary bg-background text-text'); ?>>
-<?php wp_body_open(); ?>
+<?php
+if (function_exists('wp_body_open')) {
+    wp_body_open();
+}
+?>
 <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'gateway'); ?></a>
 <header class="site-header sticky top-0 z-30 color-primary bg-background text-text" role="banner">
   <div class="gateway-announcement color-green bg-background text-text py-xxs min-h-lg tablet:min-h-xl relative z-20">

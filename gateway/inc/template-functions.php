@@ -9,14 +9,19 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
+if (! function_exists('gateway_asset_url')) {
 function gateway_asset_url($path) {
     return get_template_directory_uri() . '/assets/' . ltrim($path, '/');
 }
+}
 
+if (! function_exists('gateway_asset_path')) {
 function gateway_asset_path($path) {
     return get_template_directory() . '/assets/' . ltrim($path, '/');
 }
+}
 
+if (! function_exists('gateway_posted_on')) {
 function gateway_posted_on() {
     printf(
         '<time datetime="%1$s">%2$s</time>',
@@ -24,14 +29,18 @@ function gateway_posted_on() {
         esc_html(get_the_date())
     );
 }
+}
 
+if (! function_exists('gateway_post_categories')) {
 function gateway_post_categories() {
     $categories = get_the_category_list(esc_html__(', ', 'gateway'));
     if ($categories) {
         echo '<span class="post-categories">' . wp_kses_post($categories) . '</span>';
     }
 }
+}
 
+if (! function_exists('gateway_custom_logo')) {
 function gateway_custom_logo() {
     if (has_custom_logo()) {
         the_custom_logo();
@@ -43,11 +52,14 @@ function gateway_custom_logo() {
         esc_html(get_bloginfo('name'))
     );
 }
+}
 
+if (! function_exists('gateway_primary_menu_fallback')) {
 function gateway_primary_menu_fallback() {
     echo '<ul id="gateway-primary-menu" class="gateway-menu flex items-center justify-end gap-sm h-full">';
     echo '<li><a href="' . esc_url(home_url('/')) . '">' . esc_html__('Home', 'gateway') . '</a></li>';
     echo '<li><a href="' . esc_url(home_url('/about/')) . '">' . esc_html__('About', 'gateway') . '</a></li>';
     echo '<li><a href="' . esc_url(home_url('/blog/')) . '">' . esc_html__('Blog', 'gateway') . '</a></li>';
     echo '</ul>';
+}
 }
