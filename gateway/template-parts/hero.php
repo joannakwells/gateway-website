@@ -1,0 +1,74 @@
+<?php
+/**
+ * Homepage hero
+ *
+ * @package Gateway
+ */
+?>
+<div id="shopify-section-template--18133014151247__hero_FgpfE8" class="shopify-section"><ul
+  class="color-primary bg-background text-text
+ max-w-screen mx-auto   px-lg   tablet:min-h-[75vh]  z-10 relative flex overflow-x-auto overflow-y-hidden scrollbar-none snap-mandatory snap-x empty:hidden"
+  data-slider
+><li
+      class="w-full shrink-0 snap-start relative"
+      data-slide
+      
+    ><div class="color-leaf-bud bg-background text-text
+ relative h-full">
+  <div class="pointer-events-none z-20 px-lg py-[40px] flex flex-col justify-center tablet:justify-center items-start text-left items-start text-left absolute inset-0 w-full tablet:[--columns:1]">
+
+    
+<h1 class="w-full font-domaine text-heading-lg tablet:pr-xl">Your Summer Garden<br>is Waiting</h1><div class="mobile:w-full w-1/2 text-left mt-sm rte  text-xl font-heading tablet:pr-xl"><p>Beautifully potted, ready to plant </p></div>
+
+    <div class=" w-full ">
+    <div class=" empty:hidden mt-lg tablet:pr-xl">
+      <div class="flex flex-col tablet:flex-col gap-sm desktop:flex-row desktop:gap-md justify-start"><a
+            href="<?php echo esc_url(home_url('/collections/shop-all-roses')); ?>"
+            class="
+    appearance-none outline-none transition-colors inline-flex items-center justify-center gap-[10px]
+    button-outline py-sm px-lg border text-lg
+  
+    border-current bg-transparent supports-hover:hover:bg-links supports-hover:hover:border-links
+    supports-hover:hover:text-background rounded-[25px]
+  
+ w-fit pointer-events-auto relative z-30"
+          >Shop here</a></div>
+    </div>
+    </div><div class="absolute bottom-0 right-0 px-md text-right rte text-sm py-md pointer-events-auto">
+  
+  <a href="<?php echo esc_url(home_url('/products/gabriel-oak')); ?>" class="block no-underline z-30">
+    <div class="py-xxs pl-[10px] pr-[5px] bg-white text-background text-sm flex items-center justify-between rounded-sm gap-sm relative">
+      <div class="text-left flex-1">
+        <div>Gabriel Oak<sup>®</sup></div>
+        <div><div>$40.00 - $50.00</div></div>
+        <div class="pt-xxs underline">
+          <span class="!text-background">Shop now</span>
+        </div>
+      </div>
+      <div class="w-[60px] h-[60px] flex-shrink-0">
+        <img
+          src="//www.davidaustinroses.com/cdn/shop/files/ad4718bb013b224ba35e2958d9c46759.jpg?v=1692009470&width=60"
+          width="60"
+          height="60"
+          class="w-full h-full object-cover rounded-sm"
+          alt="Gabriel Oak®"
+        >
+      </div>
+    </div>
+  </a>
+
+
+</div></div>
+
+    <div class="relative h-full w-full object-cover"><img src="<?php echo esc_url(gateway_asset_url('images/NativeSummer-hero-desktop.png')); ?>" alt="" width="2000" height="700" loading="eager" sizes="(min-width: 1024px) 99vw, 94vw" class="w-full h-full object-cover relative z-0 block tablet:hidden" style=""><img src="<?php echo esc_url(gateway_asset_url('images/NativeSummer-hero-mobile.png')); ?>" alt="" width="3043" height="5464" loading="eager" sizes="(min-width: 1024px) 99vw, 94vw" class="w-full h-full object-cover relative z-0 tablet:block hidden" style=""></div>
+</div>
+</li></ul><script type="application/json" id="tracking-promotion-data">
+  {
+    "creative_name": "Hero",
+    "creative_slot": "index_1",
+    "promotion_id": "index_hero_your-summer-garden-br-is-waiting",
+    "promotion_name": "Hero: Your Summer Garden<br>is Waiting"
+  }
+</script>
+
+</div>

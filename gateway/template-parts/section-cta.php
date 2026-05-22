@@ -1,0 +1,723 @@
+<?php
+/**
+ * Homepage call-to-action sections
+ *
+ * @package Gateway
+ */
+?>
+<div id="shopify-section-template--18133014151247__hero_7Lcd4N" class="shopify-section"><ul
+  class="color-primary bg-background text-text
+ max-w-screen mx-auto   px-lg   z-10 relative flex overflow-x-auto overflow-y-hidden scrollbar-none snap-mandatory snap-x empty:hidden"
+  data-slider
+></ul><script type="application/json" id="tracking-promotion-data">
+  {
+    "creative_name": "Hero",
+    "creative_slot": "index_10",
+    "promotion_id": "index_hero_",
+    "promotion_name": "Hero: "
+  }
+</script>
+
+</div>
+<div id="shopify-section-template--18133014151247__illustration_Ra6t8J" class="shopify-section"><div
+  class="max-w-screen mx-auto px-lg my-xxl"
+>
+  <div class="relative bg-[#E7EECF] tablet:hidden">
+    <!-- Background image -->
+    <img
+      src="//www.davidaustinroses.com/cdn/shop/t/114/assets/newsletter-illustration.png?v=45035847352631282241760520088"
+      alt=""
+      width="1380"
+      height="590"
+      class="h-full object-cover w-full"
+    >
+
+    <!-- Overlay text -->
+    <div class="absolute inset-0 z-10 max-w-xl mx-auto flex flex-col items-center justify-center text-center px-md">
+      <div class="text-heading-lg  font-heading ">Subscribe to our emails</div>
+      <div class="text-xl font-heading pt-sm pb-lg text-pretty max-w-[450px]">Enter your email address to receive special offers, rose care advice and marketing emails from David Austin.</div>
+        <ometria-form data-async class="block w-full">
+  <form
+    id="OmetriaSignupForm-template--18133014151247__illustration_Ra6t8J"
+    action="https://api.ometria.com/forms/signup"
+    method="post"
+  ><input type="hidden" name="__form_id" value="0b4c3507eaf0a375f9b4d073487a5cf8">
+        <input type="hidden" name="@account" value="eaf63d161bab4006"><input type="hidden" name="@return_url" value="https://www.davidaustinroses.com/">
+    <input type="hidden" name="@subscription_status" value="SUBSCRIBED">
+    <input type="hidden" name="email" value="" autocomplete="off">
+    <div class="hidden">
+      <input type="email" name="__email" value="" autocomplete="off">
+    </div>
+
+    <div class="relative">
+      <button class="absolute top-0 right-0 bottom-0 text-base peer pr-[15px]" type="submit">Sign up
+      </button>
+      <input
+        type="email"
+        value=""
+        name="ue"
+        autocomplete="email"
+        autocapitalize="off"
+        autocorrect="off"
+        aria-label="Enter your email"
+        placeholder="Enter your email"
+        class="
+    appearance-none outline-none transition-colors bg-transparent text-base min-h-[45px] placeholder:text-current tablet:text-[16px] pt-[9px] pb-[11px] px-[15px]
+  
+    rounded-sm
+
+ py-sm bg-transparent w-full border border-border hover:border-border-active focus:border-border-active peer-hover:border-border-active rounded-sm pr-[100px]"
+      >
+    </div>
+  </form>
+
+  <p class="mt-gutter text-lg" hidden data-success>Thanks for signing up!</p>
+  <p class="mt-gutter text-lg" hidden data-error>Something went wrong. Please check your email address and try again.</p>
+</ometria-form>
+
+      
+    </div>
+  </div>
+
+  <div class="relative bg-[#E7EECF] desktop:hidden mobile:hidden">
+    <!-- Background image -->
+    <img
+      src="//www.davidaustinroses.com/cdn/shop/t/114/assets/newsletter-illustration-tablet.png?v=44006122392416620711760520088"
+      alt=""
+      width="1380"
+      height="590"
+      class="h-full object-cover w-full"
+    >
+
+    <!-- Overlay text -->
+    <div class="absolute inset-0 z-10 max-w-xl mx-auto flex flex-col items-center justify-center text-center px-md">
+      <div class="text-heading-lg  font-heading ">Subscribe to our emails</div>
+      <div class="text-xl font-heading pt-sm pb-lg text-pretty  max-w-[300px] ">Enter your email address to receive special offers, rose care advice and marketing emails from David Austin.</div>
+        <ometria-form data-async class="block w-[400px]">
+  <form
+    id="OmetriaSignupForm-template--18133014151247__illustration_Ra6t8J"
+    action="https://api.ometria.com/forms/signup"
+    method="post"
+  ><input type="hidden" name="__form_id" value="0b4c3507eaf0a375f9b4d073487a5cf8">
+        <input type="hidden" name="@account" value="eaf63d161bab4006"><input type="hidden" name="@return_url" value="https://www.davidaustinroses.com/">
+    <input type="hidden" name="@subscription_status" value="SUBSCRIBED">
+    <input type="hidden" name="email" value="" autocomplete="off">
+    <div class="hidden">
+      <input type="email" name="__email" value="" autocomplete="off">
+    </div>
+
+    <div class="relative">
+      <button class="absolute top-0 right-0 bottom-0 text-base peer pr-[15px]" type="submit">Sign up
+      </button>
+      <input
+        type="email"
+        value=""
+        name="ue"
+        autocomplete="email"
+        autocapitalize="off"
+        autocorrect="off"
+        aria-label="Enter your email"
+        placeholder="Enter your email"
+        class="
+    appearance-none outline-none transition-colors bg-transparent text-base min-h-[45px] placeholder:text-current tablet:text-[16px] pt-[9px] pb-[11px] px-[15px]
+  
+    rounded-sm
+
+ py-sm bg-transparent w-full border border-border hover:border-border-active focus:border-border-active peer-hover:border-border-active rounded-sm pr-[100px]"
+      >
+    </div>
+  </form>
+
+  <p class="mt-gutter text-lg" hidden data-success>Thanks for signing up!</p>
+  <p class="mt-gutter text-lg" hidden data-error>Something went wrong. Please check your email address and try again.</p>
+</ometria-form>
+
+      
+    </div>
+  </div>
+
+  <div class="relative bg-[#E7EECF] desktop:hidden tablet:hidden mobile:block pt-lg">
+    <!-- Overlay text -->
+    
+      <div class="relative h-[100px]">
+        <img
+          src="//www.davidaustinroses.com/cdn/shop/t/114/assets/newsletter-illustration-mobile-top.png?v=48350129067592052861760520087"
+          alt=""
+          width="60"
+          height="60"
+          class="absolute object-cover left-[80px] "
+        >
+      </div>
+    
+    <div class=" z-10 max-w-xl mx-auto flex flex-col items-center text-center px-md">
+      <div class="text-heading-lg font-domaine">Subscribe to our emails</div>
+      <div class="text-base pt-sm pb-lg text-pretty max-w-[450px] ">Enter your email address to receive special offers, rose care advice and marketing emails from David Austin.</div>
+        <ometria-form data-async class="block w-full">
+  <form
+    id="OmetriaSignupForm-template--18133014151247__illustration_Ra6t8J"
+    action="https://api.ometria.com/forms/signup"
+    method="post"
+  ><input type="hidden" name="__form_id" value="0b4c3507eaf0a375f9b4d073487a5cf8">
+        <input type="hidden" name="@account" value="eaf63d161bab4006"><input type="hidden" name="@return_url" value="https://www.davidaustinroses.com/">
+    <input type="hidden" name="@subscription_status" value="SUBSCRIBED">
+    <input type="hidden" name="email" value="" autocomplete="off">
+    <div class="hidden">
+      <input type="email" name="__email" value="" autocomplete="off">
+    </div>
+
+    <div class="relative">
+      <button class="absolute top-0 right-0 bottom-0 text-base peer pr-[15px]" type="submit">Sign up
+      </button>
+      <input
+        type="email"
+        value=""
+        name="ue"
+        autocomplete="email"
+        autocapitalize="off"
+        autocorrect="off"
+        aria-label="Enter your email"
+        placeholder="Enter your email"
+        class="
+    appearance-none outline-none transition-colors bg-transparent text-base min-h-[45px] placeholder:text-current tablet:text-[16px] pt-[9px] pb-[11px] px-[15px]
+  
+    rounded-sm
+
+ py-sm bg-transparent w-full border border-border hover:border-border-active focus:border-border-active peer-hover:border-border-active rounded-sm pr-[100px]"
+      >
+    </div>
+  </form>
+
+  <p class="mt-gutter text-lg" hidden data-success>Thanks for signing up!</p>
+  <p class="mt-gutter text-lg" hidden data-error>Something went wrong. Please check your email address and try again.</p>
+</ometria-form>
+
+      
+    </div>
+    <img
+      src="//www.davidaustinroses.com/cdn/shop/t/114/assets/newsletter-illustration-mobile.png?v=181009089647849764871760520088"
+      alt=""
+      width="360"
+      height="258"
+      class="object-cover w-full pt-md px-md "
+    >
+  </div>
+</div>
+
+
+</div>
+<div id="shopify-section-template--18133014151247__featured_slider_N6nWdj" class="shopify-section"><div
+  class="
+    color-primary bg-background text-text
+ my-xxl relative z-10 mx-auto max-w-screen px-lg
+  "
+  style="--columns:4;--columns-mobile:1.5;--aspect-ratio:2/3;--aspect-ratio-mobile:"
+>
+  <vanilla-slider class="block relative z-10" data-async><div class="flex gap-gutter tablet:flex-col tablet:gap-xl ">
+          <div class="desktop:max-w-[335px] shrink-0 pr-gutter tablet:w-full tablet:mx-0 text-left tablet: tablet:pr-xl"><div class="relative z-20 text-caps-sm mb-xs">Discover</div><div class="font-heading text-heading-md mb-sm text-balance">Featured Roses</div><div class="mb-md">
+  <input type="radio" name="template--18133014151247__featured_slider_N6nWdj-condense" id="template--18133014151247__featured_slider_N6nWdj-condense" hidden checked>
+  <input type="radio" name="template--18133014151247__featured_slider_N6nWdj-condense" id="template--18133014151247__featured_slider_N6nWdj-expand" hidden class="peer">
+  
+  <div class="rte text-lg text-balance line-clamp-2 desktop:line-clamp-none peer-checked:line-clamp-none"><p>We know from experience that all of the roses listed here are amongst the very best. They all combine exceptional beauty with outstanding health and reliability and many boast delicious fragrances.</p></div>
+  
+  <label data-role="button" tabindex="0" class="my-xs underline text-links inline-block desktop:hidden peer-checked:hidden" for="template--18133014151247__featured_slider_N6nWdj-expand">Read more</label>
+  
+  <label data-role="button" tabindex="0" class="my-xs underline text-links hidden peer-checked:inline-block desktop:!hidden" for="template--18133014151247__featured_slider_N6nWdj-condense">Read less</label>
+</div><a href="<?php echo esc_url(home_url('/collections/shop-all-roses')); ?>" class="text-base underline">Shop all</a></div><ul
+        class="
+          relative tablet:[--columns:var(--columns-mobile)]
+          
+                    flex align-stretch overflow-x-auto overflow-y-hidden scrollbar-none snap-mandatory snap-x  w-full
+           gap-[15px]
+        "
+        data-slider
+      ><li
+  class="desktop:w-[calc(33.3%-10px)] mobile:w-[calc(75%-10px)] tablet:w-[calc(40%-10px)] shrink-0 relative snap-start  overflow-hidden group flex flex-col items-stretch "
+  data-slide
+  
+><a
+      
+        href="<?php echo esc_url(home_url('/products/darcey-bussell')); ?>"
+      
+      aria-label=""
+      class="h-full flex flex-col"
+    ><div class="overflow-hidden aspect-[var(--aspect-ratio)] tablet:aspect-[var(--aspect-ratio-mobile,--aspect-ratio)] tablet:max-h-[400px]"><img src="//www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=1311" alt="" srcset="//www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=320 320w, //www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=375 375w, //www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=414 414w, //www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=600 600w, //www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=640 640w, //www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=720 720w, //www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=768 768w, //www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=900 900w, //www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=1024 1024w, //www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=1100 1100w, //www.davidaustinroses.com/cdn/shop/files/Darcey_Bussell_RD0947_V2.jpg?v=1776239655&amp;width=1280 1280w" width="1311" height="1866" loading="lazy" sizes="(min-width: 1024px) 22vw, 56.666666666666664vw" class="block w-full h-full object-cover z-0 supports-hover:group-hover:scale-105 transition-transform ease-in" style=""></div><div class="absolute bottom-0 w-full px-md text-right rte text-sm py-md pointer-events-auto color-green bg-background text-text
+ bg-transparent">
+  
+  <a href="<?php echo esc_url(home_url('/products/darcey-bussell')); ?>" class="block no-underline z-30">
+    <div class="py-xxs pl-[10px] pr-[5px] bg-white text-background text-sm flex items-center justify-between rounded-sm gap-sm relative">
+      <div class="text-left flex-1">
+        <div>Darcey Bussell<sup>®</sup></div>
+        <div><div>$40.00 - $50.00</div></div>
+        <div class="pt-xxs underline">
+          <span class="!text-background">Shop now</span>
+        </div>
+      </div>
+      <div class="w-[60px] h-[60px] flex-shrink-0">
+        <img
+          src="//www.davidaustinroses.com/cdn/shop/products/f843ff55f639accad19c7c73d0156c7d.jpg?v=1595522031&width=60"
+          width="60"
+          height="60"
+          class="w-full h-full object-cover rounded-sm"
+          alt="Darcey Bussell®"
+        >
+      </div>
+    </div>
+  </a>
+
+
+</div></a></li>
+<li
+  class="desktop:w-[calc(33.3%-10px)] mobile:w-[calc(75%-10px)] tablet:w-[calc(40%-10px)] shrink-0 relative snap-start  overflow-hidden group flex flex-col items-stretch "
+  data-slide
+  
+><a
+      
+        href="<?php echo esc_url(home_url('/products/windermere')); ?>"
+      
+      aria-label=""
+      class="h-full flex flex-col"
+    ><div class="overflow-hidden aspect-[var(--aspect-ratio)] tablet:aspect-[var(--aspect-ratio-mobile,--aspect-ratio)] tablet:max-h-[400px]"><img src="//www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=1264" alt="" srcset="//www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=320 320w, //www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=375 375w, //www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=414 414w, //www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=600 600w, //www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=640 640w, //www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=720 720w, //www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=768 768w, //www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=900 900w, //www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=1024 1024w, //www.davidaustinroses.com/cdn/shop/files/Windermere_sleepingfirefly.jpg?v=1776239513&amp;width=1100 1100w" width="1264" height="1800" loading="lazy" sizes="(min-width: 1024px) 22vw, 56.666666666666664vw" class="block w-full h-full object-cover z-0 supports-hover:group-hover:scale-105 transition-transform ease-in" style=""></div><div class="absolute bottom-0 w-full px-md text-right rte text-sm py-md pointer-events-auto color-green bg-background text-text
+ bg-transparent">
+  
+  <a href="<?php echo esc_url(home_url('/products/windermere')); ?>" class="block no-underline z-30">
+    <div class="py-xxs pl-[10px] pr-[5px] bg-white text-background text-sm flex items-center justify-between rounded-sm gap-sm relative">
+      <div class="text-left flex-1">
+        <div>Windermere™</div>
+        <div><div>$40.00 - $50.00</div></div>
+        <div class="pt-xxs underline">
+          <span class="!text-background">Shop now</span>
+        </div>
+      </div>
+      <div class="w-[60px] h-[60px] flex-shrink-0">
+        <img
+          src="//www.davidaustinroses.com/cdn/shop/files/1.jpg?v=1734693172&width=60"
+          width="60"
+          height="60"
+          class="w-full h-full object-cover rounded-sm"
+          alt="Windermere™"
+        >
+      </div>
+    </div>
+  </a>
+
+
+</div></a></li>
+<li
+  class="desktop:w-[calc(33.3%-10px)] mobile:w-[calc(75%-10px)] tablet:w-[calc(40%-10px)] shrink-0 relative snap-start  overflow-hidden group flex flex-col items-stretch "
+  data-slide
+  
+><a
+      
+        href="<?php echo esc_url(home_url('/products/harlow-carr')); ?>"
+      
+      aria-label=""
+      class="h-full flex flex-col"
+    ><div class="overflow-hidden aspect-[var(--aspect-ratio)] tablet:aspect-[var(--aspect-ratio-mobile,--aspect-ratio)] tablet:max-h-[400px]"><img src="//www.davidaustinroses.com/cdn/shop/files/302a374d5b152142b2a1e607c8cf2daf.jpg?v=1759325423&amp;width=600" alt="" srcset="//www.davidaustinroses.com/cdn/shop/files/302a374d5b152142b2a1e607c8cf2daf.jpg?v=1759325423&amp;width=320 320w, //www.davidaustinroses.com/cdn/shop/files/302a374d5b152142b2a1e607c8cf2daf.jpg?v=1759325423&amp;width=375 375w, //www.davidaustinroses.com/cdn/shop/files/302a374d5b152142b2a1e607c8cf2daf.jpg?v=1759325423&amp;width=414 414w, //www.davidaustinroses.com/cdn/shop/files/302a374d5b152142b2a1e607c8cf2daf.jpg?v=1759325423&amp;width=600 600w" width="600" height="600" loading="lazy" sizes="(min-width: 1024px) 22vw, 56.666666666666664vw" class="block w-full h-full object-cover z-0 supports-hover:group-hover:scale-105 transition-transform ease-in" style=""></div><div class="absolute bottom-0 w-full px-md text-right rte text-sm py-md pointer-events-auto color-green bg-background text-text
+ bg-transparent">
+  
+  <a href="<?php echo esc_url(home_url('/products/harlow-carr')); ?>" class="block no-underline z-30">
+    <div class="py-xxs pl-[10px] pr-[5px] bg-white text-background text-sm flex items-center justify-between rounded-sm gap-sm relative">
+      <div class="text-left flex-1">
+        <div>Harlow Carr<sup>®</sup></div>
+        <div>
+$40.00</div>
+        <div class="pt-xxs underline">
+          <span class="!text-background">Shop now</span>
+        </div>
+      </div>
+      <div class="w-[60px] h-[60px] flex-shrink-0">
+        <img
+          src="//www.davidaustinroses.com/cdn/shop/products/3a49aff3a1d4eefcbcfa9c8a428fe19f.jpg?v=1616500949&width=60"
+          width="60"
+          height="60"
+          class="w-full h-full object-cover rounded-sm"
+          alt="Harlow Carr®"
+        >
+      </div>
+    </div>
+  </a>
+
+
+</div></a></li>
+</ul>
+
+      
+      <div class="px-lg flex gap-gutter no-js:hidden absolute z-20 inset-0 tablet:hidden pointer-events-none">
+        
+          <div class="tablet:hidden shrink-0"></div>
+        
+        <div class="flex-1 flex items-center justify-between gap-gutter">
+          <div class="aspect-[var(--aspect-ratio)] flex items-center max-h-full justify-start">
+            <button
+              aria-label="Previous"
+              class="translate-x-md button-tertiary 
+    border-button-border text-button-text bg-button-background
+    supports-hover:hover:border-button-border-hover supports-hover:hover:text-button-text-hover
+    supports-hover:hover:bg-button-background-hover rounded-[25px]
+  
+    transition-all flex items-center justify-center rounded-full
+  
+    !w-[50px] !h-[50px]
+  
+ transition-all pointer-events-none opacity-0"
+              data-prev
+            ><svg
+      class="rotate-180 max-w-full"
+      role="presentation"
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M7.66602 4.58334L12.7868 9.70418C12.9493 9.86668 12.9493 10.1292 12.7868 10.2917L7.66602 15.4125" stroke="currentColor" stroke-miterlimit="10"/>
+    </svg></button>
+          </div>
+          <div class="aspect-[var(--aspect-ratio)] flex items-center max-h-full justify-end">
+            <button
+              aria-label="Next"
+              class="-translate-x-md button-tertiary 
+    border-button-border text-button-text bg-button-background
+    supports-hover:hover:border-button-border-hover supports-hover:hover:text-button-text-hover
+    supports-hover:hover:bg-button-background-hover rounded-[25px]
+  
+    transition-all flex items-center justify-center rounded-full
+  
+    !w-[50px] !h-[50px]
+  
+ transition-all pointer-events-auto"
+              data-next
+            ><svg
+      class=" max-w-full"
+      role="presentation"
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M7.66602 4.58334L12.7868 9.70418C12.9493 9.86668 12.9493 10.1292 12.7868 10.2917L7.66602 15.4125" stroke="currentColor" stroke-miterlimit="10"/>
+    </svg></button>
+          </div>
+        </div>
+      </div></div>
+<div class="px-offset flex gap-gutter no-js:hidden tablet:gap-0">
+          
+            <div class="w-grid tablet:hidden shrink-0"></div>
+          
+          <div class="flex-1">
+            <div
+              class="[--steps:max(1,calc(var(--items)-var(--columns)+1))] mt-lg tablet:block hidden"
+              style="--items:3"
+              data-progress
+            >
+              <div class="cursor-pointer h-1 w-full overflow-hidden bg-border relative">
+                <span
+                  class="point-events-none h-1 w-[calc(100%/var(--steps))] left-[calc(var(--progress)*((var(--steps)-1)/var(--steps)))] overflow-hidden bg-border-active absolute inline-block"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div></vanilla-slider>
+</div><script type="application/json" id="tracking-promotion-data">
+  {
+    "creative_name": "Featured slider",
+    "creative_slot": "index_12",
+    "promotion_id": "index_featured-slider_featured-roses",
+    "promotion_name": "Featured slider: Featured Roses"
+  }
+</script>
+
+</div>
+<div id="shopify-section-template--18133014151247__message_bar_Mg8tRJ" class="shopify-section"><vanilla-slider
+    data-async
+    data-autoplay="3"
+    class=""
+  ><div class="px-lg  max-w-screen mx-auto">
+  <div
+    data-slider
+    class="
+            
+            color-primary bg-background text-text
+  py-xxl flex gap-gutter items-stretch justify-between bg-contrast
+            my-xxl tablet:my-
+            
+              tablet:flex-col
+            
+    "
+  ><div
+        data-slide
+        class="
+          shrink-0 snap-start flex-1 rte flex flex-col items-center justify-start text-center gap-xxs h-full
+          
+            tablet:pb-lg tablet:mb-lg tablet:border-b border-border tablet:w-full
+          
+        "
+        
+      >
+        <div class="empty:hidden flex-1"><svg
+      class="text-icons mb-[10px] max-w-full"
+      role="presentation"
+      width="55"
+      height="62"
+      viewBox="0 0 55 62"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M54.5912 25.8995C53.481 25.4824 53.2473 25.0591 52.6999 24.6203C52.7491 24.7686 52.7983 25.1023 52.7768 25.1209C52.3063 24.8768 51.8358 24.6358 51.3683 24.3917C50.9193 24.1569 50.3719 23.7614 49.8584 23.4339C49.7569 22.4112 49.4832 21.5337 48.8989 21.1876C48.4314 20.9126 48.004 21.1567 47.6226 21.6696C47.3213 21.3607 47.0383 21.0177 46.7831 20.6346C46.8077 20.8725 46.8323 21.1073 46.863 21.3854C46.3802 21.2402 46.0327 20.9466 45.6606 20.6995C45.5345 20.616 45.4454 20.5295 45.3869 20.4368C45.2916 20.3565 45.2086 20.2823 45.1286 20.2082C45.6022 19.9116 46.7185 19.0743 46.5801 17.8384C46.4233 16.4572 47.1829 14.8073 47.1829 14.8073C47.1829 14.8073 45.1255 15.209 44.043 17.0937C43.8155 17.4923 43.8155 17.9589 43.9262 18.41C43.9169 18.5675 43.8431 18.895 43.8155 18.9043C43.4649 18.5057 43.1143 18.1103 42.7668 17.7117C42.4039 17.2977 41.998 16.6581 41.6105 16.139C42.6592 16.1606 43.7663 15.5767 43.92 14.4582C44.0061 14.2295 44.1876 14.0596 44.3413 13.8711C44.452 13.7475 44.5258 13.5931 44.5627 13.4324C44.5627 13.4293 44.5627 13.4262 44.5627 13.42C44.5689 13.383 44.5751 13.349 44.5781 13.3119C44.5812 13.281 44.5843 13.2501 44.5843 13.2192C44.5843 13.1976 44.5843 13.179 44.5812 13.1605C44.5812 13.1234 44.5751 13.0894 44.5658 13.0524C44.5597 13.0276 44.5535 13.0029 44.5474 12.9813C44.5381 12.9566 44.532 12.9349 44.5197 12.9102C44.5074 12.8762 44.492 12.8453 44.4736 12.8144C44.4674 12.8052 44.4582 12.7959 44.452 12.7835C44.4274 12.7496 44.4028 12.7156 44.3721 12.6847C44.3352 12.6476 44.2921 12.6136 44.246 12.5827C44.1876 12.5425 44.1199 12.5147 44.0523 12.4869C44.0369 12.4807 44.0215 12.4715 44.0061 12.4622C43.9723 12.4468 43.9354 12.4344 43.8985 12.422C43.8032 12.3819 43.7109 12.3324 43.6432 12.2552C43.6002 12.1934 43.5848 12.1131 43.5787 12.0389C43.5879 11.7361 43.4926 11.3901 43.2158 11.2201C42.7945 10.9482 42.2994 11.1583 41.8627 11.2479C41.8288 11.251 41.7981 11.2479 41.7673 11.2479C41.7028 11.112 41.6166 10.976 41.4998 10.8401C40.9524 10.2932 40.3988 10.3921 40.0483 10.7814C40.0452 10.7814 40.0421 10.7752 40.039 10.7721C39.3532 10.2561 38.5814 10.6053 38.2308 11.2325C37.382 11.0348 36.6039 11.5229 36.401 12.5549C36.361 12.765 36.3579 12.9844 36.3948 13.1945C35.9674 13.42 35.7859 14.1677 35.9735 14.6003C35.9858 14.6343 36.0043 14.6621 36.0196 14.693C35.9612 14.761 35.8874 14.8259 35.8105 14.9031C35.6076 15.1163 35.4015 15.382 35.3769 15.7312C35.3492 16.0741 35.5553 16.3831 35.8136 16.5839C35.9428 16.6766 36.0596 16.7384 36.0965 16.8095C36.1365 16.862 36.1273 16.9856 36.1088 17.1277C36.0535 17.4367 36.1334 17.826 36.3979 18.033C36.6685 18.2524 37.016 18.2771 37.3113 18.2338C37.6188 18.1906 37.871 18.0701 38.0924 18.135C38.28 18.2308 38.4614 18.2956 38.6367 18.3358L38.5844 18.3791L38.9781 18.3945C39.018 18.3945 39.0611 18.3945 39.1041 18.3945C39.4332 18.3945 39.8299 18.3389 40.1282 18.0577C40.2543 18.0052 40.3773 17.9403 40.4911 17.8662C40.5188 17.9434 40.5403 18.0206 40.571 18.0948C40.6233 18.2184 40.6818 18.3389 40.7433 18.4594C40.8048 18.5737 40.8786 18.6788 40.9616 18.7838C41.02 18.858 41.0785 18.9321 41.14 19.0063C41.1615 19.0341 41.1861 19.0619 41.2076 19.0897C41.183 18.963 41.1615 18.8363 41.14 18.7097C41.0785 18.3296 41.0323 17.9527 41.0231 17.5726C41.0231 17.4954 41.0231 17.4151 41.0231 17.3378C41.1707 17.1215 41.2722 16.8836 41.303 16.6334C41.7796 17.2729 42.3363 17.8631 42.8529 18.515C42.6407 18.5274 42.4839 18.5366 42.287 18.549C42.3547 18.5953 42.3855 18.6231 42.4162 18.6355C43.0835 18.8858 43.594 19.3616 44.0953 19.8745C44.655 20.4461 45.2516 20.9652 45.9128 21.3885C45.5192 21.2772 45.0702 21.2587 44.6366 21.4812C43.5725 22.0219 42.0133 21.9014 42.0133 21.9014C42.0133 21.9014 42.9544 23.4555 44.7965 23.7707C45.719 23.9282 46.5586 22.9272 46.9338 22.3957C47.0076 22.4204 47.0783 22.4452 47.1521 22.4699C46.5832 23.6594 46.1742 25.3093 45.9866 26.1652L44.9933 26.3908C43.7816 30.3178 42.8929 33.6578 41.6535 37.2944C39.4424 33.1017 36.6593 28.4671 35.4261 27.5371C35.1063 27.1138 34.6081 26.7214 33.8208 26.3722C31.9357 25.5349 30.149 25.3155 28.6482 23.8695C28.3653 23.5976 28.1162 23.267 28.0239 22.8839C27.9409 22.544 27.9901 22.1825 28.067 21.8396C28.15 21.4688 28.2761 21.1073 28.6236 20.9096C28.8327 20.7891 29.0788 20.7489 29.294 20.6377C29.7461 20.4028 29.9952 19.893 30.0936 19.3925C30.3796 17.9372 30.3304 16.3522 30.2197 14.8815C30.2012 14.6528 30.1828 14.4242 30.1613 14.1925C30.4626 13.9978 31.2653 13.4324 31.0346 13.0184C30.8101 12.6167 29.9521 11.3684 29.6077 10.8741C29.4878 10.4137 29.3494 9.96261 29.1864 9.52078C30.6902 8.77924 32.0249 8.00681 33.1842 7.06753C33.1842 7.06753 31.5759 5.15807 27.864 4.84601C27.3382 2.60903 26.1357 -0.944166 23.9431 0.233025C20.8155 1.91693 18.1062 1.18775 16.6516 2.75734C15.6983 3.78931 16.381 7.23128 16.9622 9.48061C16.3564 10.1511 15.8397 10.837 15.443 11.4951C14.8157 12.5364 14.3082 13.8958 14.3513 14.625C14.3913 15.2955 14.5174 15.8177 14.5174 15.8177C15.4307 15.4963 16.8607 14.968 18.3368 14.3778C18.5152 15.7497 18.6905 16.7384 18.6905 16.7384C18.6905 16.7384 20.5756 22.8005 15.6737 24.3175C10.7717 25.8346 10.0059 25.572 7.05983 29.2797C4.11372 32.9874 0.97387 47.1816 0.208128 50.8429C-0.154754 52.5794 0.165075 57.2665 0.68172 62H8.35759C8.33607 55.8669 8.85579 49.7276 9.8983 43.6871C10.3319 41.4872 10.8024 39.2502 11.6727 37.1739L11.685 37.143C11.8203 36.3706 11.9003 35.9164 11.9003 35.9164C11.9003 35.9164 11.8357 36.3212 11.7312 37.0442L12.0664 36.2965L11.8511 37.2326C11.4851 38.7621 11.2883 40.378 11.0761 41.9352C10.6148 45.7294 10.2581 49.5514 9.90138 53.3734C11.562 53.4414 13.2165 53.6021 14.8556 53.874C13.1888 54.0192 11.5128 54.0501 9.84295 53.9883C9.75992 54.872 9.67688 55.7587 9.59078 56.6424C12.5615 56.7258 15.5876 56.8185 18.4414 56.9205C15.5045 57.3839 12.5031 57.4766 9.5385 57.2078C9.5262 57.3499 9.51082 57.489 9.49544 57.6311C9.40626 59.1111 9.33553 60.5756 9.29862 61.9969H39.1103C39.0857 59.2532 38.8766 55.9472 38.6244 52.774C38.3107 51.1643 38.0093 49.5576 37.711 47.9726C37.3174 45.7912 36.77 42.6551 36.3856 40.4429C36.2226 39.5036 36.0596 38.5612 35.8413 37.6312C35.7613 37.3284 35.709 37.0009 35.5338 36.7383C35.7675 36.9608 35.8813 37.2852 36.0196 37.5725C36.3979 38.4624 36.687 39.3831 36.973 40.3008C37.711 42.754 38.3015 45.2443 38.855 47.7409C39.0119 48.4886 39.1687 49.2363 39.3163 49.984C39.9714 50.364 40.4819 50.5278 40.7617 50.3733C41.1984 50.1323 41.6412 49.7306 42.0687 49.2486C42.6961 48.7975 43.3357 48.3434 43.4895 48.0344C47.9056 39.2224 50.9347 26.0107 50.9347 26.0107L49.8491 25.9335C49.8953 25.3433 49.9199 24.7038 49.8953 24.0858C50.4919 24.435 51.1192 24.7408 51.7374 25.1023C51.5467 25.1919 51.4021 25.2568 51.2207 25.3402C51.3007 25.3588 51.3376 25.3742 51.3714 25.3711C52.0818 25.3619 52.7307 25.6183 53.3826 25.9149C53.7855 26.0972 54.1976 26.2517 54.6127 26.3908C54.6066 26.227 54.5943 26.0632 54.582 25.8995H54.5912ZM43.7509 12.3603C43.7109 12.3386 43.674 12.3108 43.6463 12.2768C43.6771 12.3108 43.7109 12.3355 43.7509 12.3603Z" fill="#375543"/>
+    </svg></div>
+        <div class="text-caps-lg text-links">5 year guarantee</div><p>If your rose fails to grow, we’ll replace it for free</p></div><div
+        data-slide
+        class="
+          shrink-0 snap-start flex-1 rte flex flex-col items-center justify-start text-center gap-xxs h-full
+          
+            tablet:pb-lg tablet:mb-lg tablet:border-b border-border tablet:w-full
+          
+        "
+        
+      >
+        <div class="empty:hidden flex-1"><svg
+      class="text-icons mb-[10px] max-w-full"
+      role="presentation"
+      width="55"
+      height="62"
+      viewBox="0 0 55 62"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M48.3174 58.5865V6.95685C46.5307 7.30879 44.6981 7.30537 42.9114 6.95685V58.5865H41.8716V0.232351H31.0569V58.5865H30.2124V7.876H24.8065V58.5865H23.9563V6.95685C22.1696 7.30879 20.337 7.30537 18.5504 6.95685V58.5865H9.0541L17.1429 12.8579L11.8518 11.5321L3.53041 58.5831H0.5V62H51.5V58.5831H48.3202L48.3174 58.5865ZM36.2302 36.8549H38.1518C38.7665 36.8549 38.9647 36.6157 38.9647 36.0451H39.0854L39.1227 37.798H39.0021C39.0021 37.3845 38.7895 37.1556 38.1949 37.1556H36.2934C35.0266 37.1556 34.297 36.4107 34.297 34.9585C34.297 33.6191 34.883 32.8571 36.1641 32.8571H38.1518C38.8785 32.8571 38.9647 32.6897 38.9647 32.1669H39.0854V34.2546H38.9647C38.9647 33.7455 38.8785 33.5576 38.1518 33.5576H36.2244C35.1243 33.5576 34.5756 34.0974 34.5756 35.1908C34.5756 36.2843 35.0898 36.8583 36.2302 36.8583V36.8549ZM34.3229 38.2046L34.3171 38.0713L35.8165 37.9449L35.8366 38.1021C34.9835 38.3652 34.5412 38.9119 34.5412 39.9028C34.5412 40.7741 34.8744 41.2525 35.4086 41.2525C35.9688 41.2525 36.256 40.7297 36.5433 39.7934C36.8506 38.7615 37.224 37.962 37.9651 37.962C38.7062 37.962 39.206 38.7479 39.206 39.7798C39.206 40.3846 39.0337 40.7331 39.0337 40.9381C39.0337 41.0885 39.1399 41.167 39.3008 41.1534L39.3209 41.3106L37.9191 41.6898L37.8847 41.5224C38.6114 41.2525 38.959 40.6579 38.959 39.7934C38.959 39.0144 38.6918 38.6044 38.2208 38.6044C37.7497 38.6044 37.4682 39.0178 37.1608 40.0497C36.7817 41.3447 36.3336 41.9051 35.6729 41.9051C34.8399 41.9051 34.2999 41.0235 34.2999 39.8891C34.2999 39.0725 34.5814 38.7137 34.5814 38.454C34.5814 38.3037 34.4866 38.2148 34.3286 38.208L34.3229 38.2046ZM39.318 46.74L39.3439 46.8767L37.8502 47.297L37.8157 47.1637C38.5683 46.7674 38.8355 46.4974 38.8355 45.8141V45.5441C38.8355 45.1478 38.7378 45.0111 38.3701 45.0111H35.311C34.6159 45.0111 34.5297 45.1683 34.5297 45.7423H34.409V43.576H34.5297C34.5297 44.1466 34.6159 44.3072 35.311 44.3072H38.373C38.7321 44.3072 38.8383 44.1739 38.8383 43.7673V43.5145C38.8383 42.8242 38.5683 42.5543 37.8129 42.1579L37.8473 42.0247L39.341 42.445L39.3152 42.5714C39.1026 42.5065 39.0825 42.6432 39.0825 42.9062V46.4223C39.0825 46.6922 39.1026 46.8186 39.3152 46.7469L39.318 46.74ZM38.1777 54.8313C38.7837 54.8313 38.9647 54.5443 38.9647 53.8062H39.0854V55.7129H38.9647C38.9647 55.3165 38.778 55.1252 38.1834 55.1252H34.3688V54.9406L38.5252 50.7822H35.3167C34.7308 50.7822 34.5354 51.0283 34.5354 51.7663H34.4148V49.846H34.5354C34.5354 50.2492 34.7279 50.4884 35.3167 50.4884H38.419C38.8527 50.4884 38.9647 50.2834 38.9647 49.8392H39.0854V51.1479L35.377 54.8313H38.1777ZM38.9647 49.4497C38.9647 48.9815 38.8843 48.8073 38.1576 48.8073H35.3569C34.6159 48.8073 34.5354 48.9576 34.5354 49.4497H34.4148V47.4576H34.5354C34.5354 47.9496 34.6159 48.1 35.3569 48.1H38.1576C38.8843 48.1 38.9647 47.9496 38.9647 47.4576H39.0854V49.4497H38.9647ZM34.4291 3.48868H34.5498C34.5498 3.98755 34.6302 4.14814 35.3713 4.14814H38.1719C38.8987 4.14814 38.9791 3.99096 38.9791 3.48868H39.0997V5.69601C39.0997 7.77349 38.2667 8.97283 36.8104 8.97283C35.3541 8.97283 34.4291 7.76666 34.4291 5.82243V3.48868ZM34.4291 12.154H34.5498C34.5498 12.7178 34.7422 12.8681 35.3426 12.5913L35.9085 12.2907V10.0936L35.423 9.82364C34.8859 9.56737 34.5498 9.75189 34.5498 10.4045H34.4291L34.455 8.64822H34.5756C34.5756 9.06851 34.8887 9.25985 35.5092 9.54346L38.6373 10.9786L38.9647 10.9307H39.0107C39.0854 11.1289 39.1974 11.3203 39.3439 11.4535V11.5082L35.3541 13.3397C34.748 13.6267 34.5469 13.736 34.5469 14.1187H34.4263V12.1506L34.4291 12.154ZM34.3487 15.424L38.192 13.4627C38.7924 13.1517 38.9791 13.0253 38.9791 12.6836H39.0997V14.7611H38.9791C38.9791 14.0299 38.6861 13.9752 38.192 14.2212L35.1501 15.752L38.0455 17.1256C38.5712 17.3716 38.9791 17.2999 38.9791 16.5379H39.0997V20.3341H38.9791C38.9791 19.866 38.8987 19.6917 38.1719 19.6917H35.3713C34.6302 19.6917 34.5498 19.842 34.5498 20.3341H34.4291V18.342H34.5498C34.5498 18.8341 34.6302 18.9844 35.3713 18.9844H38.1719C38.89 18.9844 38.9762 18.8341 38.9791 18.3557C38.9791 17.9457 38.6832 17.7646 38.0398 17.4468L34.3516 15.6837V15.4171L34.3487 15.424ZM39.0997 20.727V22.9344C39.0997 25.0118 38.2667 26.2112 36.8104 26.2112C35.3541 26.2112 34.4291 25.005 34.4291 23.0608V20.727H34.5498C34.5498 21.2259 34.6302 21.3865 35.3713 21.3865H38.1719C38.8987 21.3865 38.9791 21.2293 38.9791 20.727H39.0997ZM33.3118 34.1863C33.4496 33.0963 34.0184 32.1361 35.2363 31.34C35.265 31.3126 35.2966 31.2887 35.3311 31.2716L35.4374 31.2136C35.5839 31.1247 35.739 31.0393 35.9027 30.9573L35.897 28.7124L35.4115 28.4424C34.8744 28.1862 34.5383 28.3707 34.5383 29.0233H34.4177L34.4435 27.267H34.5642C34.5642 27.6873 34.8772 27.8786 35.4977 28.1622L38.6258 29.5974L38.9532 29.5495H38.9992C39.0739 29.7477 39.1859 29.939 39.3324 30.0723V30.127L36.6783 31.3468C36.6783 31.3468 36.6553 31.3571 36.6438 31.3639L36.1785 31.5792C34.4033 32.4266 33.622 33.2603 33.4755 34.422C33.4094 34.9346 33.4439 35.5565 33.8116 36.0622L33.7742 36.1032C33.3549 35.618 33.2227 34.9107 33.3118 34.1863ZM36.325 30.7523C36.2646 30.7796 36.2014 30.8069 36.144 30.8343V28.7739L38.3931 29.8058L36.325 30.7557V30.7523ZM38.8469 22.9173C38.8469 24.5369 38.126 25.439 36.7845 25.439C35.4431 25.439 34.6762 24.6189 34.6762 23.2624V22.9754C34.6762 22.3706 34.6618 22.0904 35.1961 22.0904H38.4304C38.8642 22.0904 38.8441 22.3398 38.8441 22.9173H38.8469ZM38.4046 11.187L36.1555 12.2189V10.1551L38.4046 11.187ZM34.6762 6.02403V5.73701C34.6762 5.13221 34.6618 4.85203 35.1961 4.85203H38.4304C38.8642 4.85203 38.8441 5.10146 38.8441 5.67892C38.8441 7.29854 38.1231 8.20061 36.7817 8.20061C35.4402 8.20061 34.6733 7.38055 34.6733 6.02403H34.6762ZM18.5504 3.98071V0H23.9563V3.9773C22.1696 3.62535 20.337 3.62877 18.5504 3.9773V3.98071ZM18.5504 6.78942V4.14814C20.337 4.49667 22.1696 4.50008 23.9563 4.14814V6.786C22.1696 6.43406 20.337 6.43748 18.5504 6.786V6.78942ZM42.9114 6.78942V4.14814C44.6981 4.49667 46.5307 4.50008 48.3174 4.14814V6.786C46.5307 6.43406 44.6981 6.43748 42.9114 6.786V6.78942ZM42.9114 3.98071V0.232351H48.3174V3.98071C46.5307 3.62877 44.6981 3.63219 42.9114 3.98071Z" fill="#375543"/>
+    </svg></div>
+        <div class="text-caps-lg text-links">Lifetime support</div><p>Expert advice & aftercare to keep your roses blooming</p></div><div
+        data-slide
+        class="
+          shrink-0 snap-start flex-1 rte flex flex-col items-center justify-start text-center gap-xxs h-full
+          
+        "
+        
+      >
+        <div class="empty:hidden flex-1"><svg
+      class="text-icons mb-[10px] max-w-full"
+      role="presentation"
+      width="55"
+      height="62"
+      viewBox="0 0 55 62"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M44.7061 44.8749C50.0725 45.3672 53.4618 39.1498 50.1023 34.907C48.125 32.3124 44.1002 31.8554 41.5738 33.9143C38.9149 35.9432 38.4172 40.012 40.4594 42.6692C41.5278 43.923 43.075 44.7416 44.7061 44.8749ZM44.771 37.8552L45.385 36.2886L45.999 37.8552L47.557 38.4726L45.999 39.09L45.385 40.6565L44.771 39.09L43.213 38.4726L44.771 37.8552ZM54.7628 38.7038C54.7628 33.5063 50.5567 29.2771 45.3877 29.2771C40.2187 29.2771 36.0126 33.5063 36.0126 38.7038C36.0126 43.9012 40.2187 48.1304 45.3877 48.1304C50.5567 48.1304 54.7628 43.9012 54.7628 38.7038ZM44.6763 45.1414C43.0047 44.9184 41.4413 44.0127 40.4594 42.6692C38.1657 40.0609 38.5877 35.7474 41.3115 33.5825C44.0001 31.2816 48.3631 31.7575 50.527 34.567C54.1353 39.1362 50.462 45.8676 44.679 45.1414H44.6763ZM50.5973 50.9018C51.4818 54.2553 52.8694 57.6795 54.9467 60.4536L51.3006 59.0828L49.4585 61.9984C49.1799 62.0664 47.9114 59.9232 47.722 59.5806C47.4109 59.0176 47.0566 58.3159 46.8023 57.7284C46.4994 57.0294 46.2451 56.6541 46.4345 55.8627C46.4615 55.7457 46.5129 55.3949 46.5129 55.3949C46.5833 54.9815 46.6536 54.5653 46.7212 54.1492C46.751 53.9996 46.778 53.8473 46.8078 53.6977C47.1188 51.9734 47.4759 50.2001 47.5651 48.4269C48.3874 48.2419 49.1691 47.9509 49.8994 47.5756C50.0752 48.6988 50.3106 49.8112 50.5973 50.8991V50.9018ZM45.6663 61.9195L42.3285 59.8661C42.3285 59.8661 39.0312 61.8896 38.9934 61.8434C38.9609 57.5815 40.2214 53.453 40.527 49.2265C40.5703 48.6308 40.592 48.0325 40.6028 47.4342C42.0228 48.2256 43.6539 48.6744 45.3877 48.6744C46.0017 48.6744 46.6049 48.6145 47.1891 48.5057C47.1837 48.59 47.1756 48.6771 47.1702 48.7614C46.9403 50.3796 46.5833 51.9816 46.2803 53.5971C45.7637 56.325 45.3769 59.14 45.669 61.9195H45.6663ZM22.1853 2.08779C22.023 1.93276 21.8445 1.78318 21.6551 1.64991C22.2529 0.972693 23.0238 0.513054 23.911 0.295474C25.8612 -0.275673 27.6897 0.00990015 29.2585 0.904697C28.9285 1.13316 28.6202 1.39969 28.347 1.7043C28.2767 1.69614 28.2036 1.6907 28.1333 1.68255C26.4347 1.51392 24.5385 1.60911 23.1563 2.73509C23.0968 2.78676 23.0373 2.84116 22.9832 2.89827C22.729 2.61814 22.4666 2.34345 22.1826 2.08779H22.1853ZM42.8992 6.79839C43.8784 7.26891 44.6276 8.20994 44.5411 9.32776C44.5221 9.5807 44.4518 9.83091 44.3436 10.0594C44.1543 10.4565 43.9812 10.8726 43.9622 11.3295C43.9271 12.0094 44.2003 12.7465 44.0758 13.3557C43.9108 14.1363 43.3131 14.8869 42.6341 15.352C42.3528 15.5478 42.0283 15.6294 41.6874 15.643C41.4007 15.303 41.0653 14.993 40.7029 14.702C40.7083 14.6367 40.711 14.5687 40.7164 14.5034C40.7542 13.5706 40.7651 12.4582 40.0348 11.7511C39.9455 11.6831 39.8995 11.6123 39.7372 11.5444C39.6723 11.5172 39.6182 11.509 39.5587 11.4954C38.7986 11.392 37.9791 11.6232 37.2677 11.5661C37.0269 11.5036 36.5238 11.3105 36.2101 11.3159C36.0911 11.3077 35.9747 11.3077 35.8557 11.305C36.4535 11.0602 37.0648 10.8699 37.7005 10.7203C40.0293 10.1899 42.3204 9.20537 42.8965 6.80111L42.8992 6.79839ZM35.3472 22.63C35.4338 22.5485 35.5203 22.4696 35.6015 22.3826C36.2561 21.6945 36.8349 20.8704 37.1757 19.9674C37.2217 19.8695 37.2596 19.7662 37.3001 19.6628C37.9168 19.3528 38.4957 18.9584 38.9988 18.4852C39.5371 17.9793 40.0185 17.3918 40.3296 16.6983C40.5757 16.1788 40.6406 15.6022 40.6812 15.0284C41.6252 15.9068 42.3041 16.9349 42.1959 18.2621C41.9255 20.1116 40.0077 22.2819 38.2036 22.7416C37.2704 22.9673 36.2885 22.8775 35.3472 22.6273V22.63ZM37.4597 19.2032C37.7951 18.0908 37.8005 16.8751 37.411 15.7708C37.246 15.371 37.1054 14.8516 36.6455 14.6285C36.3534 14.5279 36.0505 14.7156 35.7881 14.7863C35.569 14.8597 35.1227 14.9604 34.8901 15.0256C33.654 15.4282 32.2528 15.08 31.1249 15.8361C30.9085 15.9585 30.7354 16.07 30.5596 16.1543C30.3026 15.2242 29.6697 14.343 28.842 13.8099L29.0097 13.7419C29.0097 13.7419 31.0221 12.9477 32.0527 12.6649C33.3781 12.2596 34.7711 11.7728 36.1533 11.8734C36.513 11.8789 36.8457 12.0475 37.1865 12.1155C37.9872 12.2025 38.7797 11.9006 39.5479 12.0257C40.2917 12.5398 40.2674 13.5923 40.2593 14.4817C40.2214 15.1725 40.2403 15.8851 39.9509 16.5351C39.6831 17.1688 39.2449 17.7318 38.7445 18.2213C38.355 18.5967 37.9195 18.923 37.4543 19.2032H37.4597ZM22.28 11.8707C22.3097 11.887 22.3368 11.9006 22.3665 11.9197C22.3476 11.9034 22.3287 11.8898 22.3097 11.8762C22.4666 11.9006 22.6235 11.9197 22.7777 11.9523C23.4539 12.1101 24.0381 12.4935 24.6765 12.8009C25.7395 13.3013 26.9648 13.3938 28.0062 13.9133C28.0927 13.9405 28.182 13.9486 28.2713 13.9432C29.099 14.4926 29.7454 15.3466 29.9645 16.3094C29.9591 16.3094 29.9537 16.3094 29.9483 16.3094C29.2044 16.3801 28.4552 16.1679 27.779 15.8688C27.1433 15.6457 26.5077 15.5233 25.872 15.42C24.9497 15.2758 23.9435 15.1915 23.0103 15.1208C22.2475 15.0991 21.5848 14.6068 20.7869 14.6721C19.8429 14.7129 19.8456 16.4018 19.7698 17.0872C19.6806 17.8324 19.7617 18.5803 19.9727 19.2902C18.5959 18.4988 17.1542 17.2286 16.854 15.8116C16.7972 15.0202 16.7891 14.2097 16.8702 13.4291C16.9297 12.945 17.0001 12.4256 17.2678 12.0393C17.3544 11.936 17.4166 11.8898 17.5194 11.8762C18.2091 11.7837 18.9259 11.7347 19.6319 11.7211C20.511 11.7048 21.409 11.7429 22.28 11.8734V11.8707ZM22.3882 22.5702C22.0176 22.4043 21.6714 22.1759 21.3846 21.8767C21.0574 21.5367 20.7977 21.1396 20.6002 20.7126C20.6165 20.7425 19.9727 18.3736 20.1566 17.1171C20.2216 16.5297 20.2919 15.8633 20.5461 15.3466C20.6056 15.2269 20.6922 15.1507 20.7301 15.1507C20.7382 15.1507 20.7328 15.1507 20.7517 15.1507C21.5091 15.1127 22.188 15.6593 22.967 15.6811C24.4898 15.8443 26.1155 15.983 27.5626 16.4698C28.8258 17.0491 30.2729 17.2585 31.4441 16.3909C32.5206 15.6893 33.8785 16.0156 35.0443 15.5723C35.4797 15.4554 35.9856 15.2949 36.4048 15.1317C36.5022 15.1045 36.4751 15.0963 36.5644 15.1779C37.2623 16.1353 37.4327 17.4843 37.2974 18.6538C37.2352 19.2059 37.0675 19.7362 36.8295 20.2312C36.4346 20.9302 35.9044 21.5585 35.3283 22.1051C34.2166 23.1522 32.7532 23.7016 31.2601 23.9709C31.0979 24.0035 30.9356 24.0307 30.776 24.0552C30.7246 24.0634 30.6759 24.0688 30.6245 24.077C30.5109 24.0933 30.3946 24.1096 30.281 24.1205C30.2242 24.1259 30.1701 24.1341 30.1133 24.1395C29.997 24.1504 29.8807 24.1613 29.7644 24.1694C29.7157 24.1721 29.667 24.1776 29.6183 24.1803C29.4533 24.1885 29.291 24.1966 29.126 24.1993C28.5499 24.2102 27.9737 24.1776 27.4003 24.1096C27.1704 24.0824 26.9405 24.047 26.7133 24.009C26.6916 24.0062 26.6673 24.0008 26.6429 23.9981C26.4238 23.96 26.2074 23.9138 25.9911 23.8648C25.9559 23.8567 25.9207 23.8485 25.8829 23.8403C25.6692 23.7914 25.4582 23.737 25.2472 23.6772C25.2148 23.669 25.1823 23.6581 25.1525 23.65C24.9334 23.5874 24.7171 23.5194 24.5007 23.4433C23.7731 23.2121 23.0481 22.9183 22.3827 22.5729L22.3882 22.5702ZM16.2373 13.8589C16.2156 14.4436 16.2481 15.0338 16.2616 15.5832C16.2616 16.3801 16.7133 17.0926 17.1894 17.6883C18.055 18.7109 19.072 19.4751 20.1729 19.9973C20.3893 20.99 20.8599 21.9392 21.5983 22.5376C20.9979 22.6083 20.3866 22.5702 19.7861 22.3853C16.8161 21.5449 12.9968 18.1969 15.2473 14.944C15.5313 14.5361 15.8721 14.1825 16.24 13.8589H16.2373ZM28.5093 34.8744C28.7013 31.4584 29.0881 28.1375 29.1233 24.8358C29.0421 24.8358 28.961 24.8412 28.8799 24.8412C28.3768 25.2192 27.8223 25.5375 27.2434 25.8067C27.0216 28.1647 26.8485 30.5282 26.6402 32.8889C26.4265 35.315 26.1966 37.741 25.9748 40.167C25.9288 40.1833 25.7179 41.516 25.3527 43.7217C25.2824 43.3029 25.139 42.8759 24.974 42.4625C24.8225 42.079 24.6873 41.6547 24.5466 41.2032C24.3438 40.5586 24.1328 39.8896 23.8596 39.3402L23.7703 39.158L23.6486 39.3184C23.5864 39.4027 23.4917 39.5578 23.3944 39.7237C23.3619 39.7753 23.3322 39.8297 23.2997 39.8787C23.159 39.5496 22.8723 39.294 22.5991 39.0737C22.2502 38.7908 21.8986 38.4835 21.5253 38.1571C20.7301 37.4636 19.9078 36.7483 19.0801 36.2261L19.0233 36.1907L18.9611 36.2179C18.9097 36.2424 18.5337 36.4219 18.4012 36.6939C17.0947 36.0547 15.7017 35.6305 14.5062 35.2959C14.1437 35.1953 13.2863 34.9233 13.2781 34.9206L13.1591 34.8825L13.1213 35.0022C13.105 35.0593 13.1023 35.1572 13.105 35.353C13.105 35.4863 13.105 35.7284 13.0888 35.8072C13.0455 35.8263 12.959 35.8072 12.9184 35.8018C12.372 35.6903 11.6552 35.5189 10.9628 35.3558C10.2676 35.1899 9.54813 35.0212 8.99904 34.907L8.81781 34.8689L8.9774 35.7175C8.27413 35.6685 7.5898 35.7284 6.9271 35.7855C6.05884 35.8616 5.24197 35.9323 4.3737 35.7855L4.18707 35.7528L4.23034 35.9378C4.28174 36.1499 4.32501 36.5416 4.23034 36.6912C4.19518 36.7483 4.10592 36.7755 4.01395 36.8054L0.386719 37.8715L0.803268 37.9912C1.67694 38.2414 3.03479 38.9567 3.7056 39.6258L2.53709 40.3492L2.79676 40.4335C4.53058 40.9856 5.67475 41.3501 7.24898 42.37C7.80619 42.7317 8.35257 43.1397 8.62576 43.7027C8.29847 43.6972 7.97118 43.7353 7.65201 43.806L7.39234 43.8631L7.60062 44.029C8.00635 44.35 8.41208 44.6573 8.8151 44.9646C10.3325 46.1205 11.7661 47.2166 12.9779 48.6988C12.7182 48.8702 12.2855 49.2047 12.2638 49.221L12.1286 49.3244L12.2665 49.4223C15.1472 51.5029 18.7204 52.637 22.2719 52.637C22.7777 52.637 23.2862 52.6126 23.7893 52.5663C23.3836 54.6959 22.9237 56.9805 22.4125 59.3331C23.4025 60.3258 24.168 60.8316 25.1228 61.5306C25.423 59.7193 27.2813 46.0852 27.5085 44.5213C27.8223 42.3482 28.2036 40.2187 28.9529 38.2278L31.1249 33.9333C31.1249 33.9333 30.7138 34.1863 30.5217 34.2651C30.0916 34.4446 29.3938 34.6949 28.5147 34.8689L28.5093 34.8744ZM19.9727 48.0407C18.6554 47.2846 17.2841 46.7569 15.8045 46.3735C16.8783 46.1423 18.0577 46.3789 19.0071 46.9664C18.7636 46.6563 18.5472 46.3299 18.3498 45.99C18.0198 45.5766 17.7141 45.1441 17.4409 44.6845C16.5646 43.0363 13.6163 43.0826 11.9473 42.9874C13.4594 42.6909 15.7666 42.5305 17.1326 43.5449C17.1218 43.5232 17.111 43.5014 17.1028 43.4796C15.772 41.0128 13.0266 39.7427 10.3407 39.3157C13.0645 39.2804 15.9695 40.5314 17.4031 42.9357C17.3328 41.6846 17.7764 40.4281 18.8231 39.6584C18.2795 40.5668 17.9549 41.5541 17.9224 42.5984C17.8954 43.2757 18.0144 43.9338 18.1848 44.5839C18.4418 45.1523 18.7095 45.7126 19.0314 46.2456C19.1288 46.3979 19.2235 46.5448 19.3127 46.6862C19.3452 46.7325 19.3776 46.7787 19.4101 46.8249C19.5372 46.9691 19.6616 47.1105 19.7888 47.2547C19.2126 45.5983 19.8348 43.5667 21.1196 42.3972C21.0276 42.6501 20.9113 42.8786 20.8112 43.1152C20.1756 44.5811 19.8916 46.1368 20.1999 47.7225C20.3866 47.9346 20.5678 48.1495 20.7517 48.3643C21.3062 48.8675 21.9337 49.2836 22.6559 49.5202C21.6308 49.3461 20.7301 48.7668 19.97 48.0461L19.9727 48.0407ZM26.102 26.2636C26.1209 26.2582 26.1398 26.25 26.1588 26.2446C26.3102 26.1929 26.459 26.1385 26.6078 26.0787C24.6521 28.3089 23.1861 30.8872 21.8499 33.5716C21.6551 32.5435 21.7282 31.3115 21.9013 30.2209C22.0798 29.1031 22.3611 28.0206 22.7479 26.9789C22.9048 26.9626 23.0644 26.9436 23.2213 26.9218C23.224 26.9218 23.2267 26.9218 23.2321 26.9218C23.8731 26.8375 24.5223 26.7151 25.1607 26.5465C25.1742 26.5438 25.185 26.541 25.1985 26.5356C25.3419 26.4975 25.4825 26.4567 25.6232 26.4159C25.6448 26.4105 25.6665 26.4023 25.6881 26.3969C25.8233 26.3561 25.9613 26.3126 26.0938 26.2664L26.102 26.2636ZM44.2895 23.9274C43.359 24.2429 42.2987 24.3027 41.4197 24.7161C40.9409 24.9418 40.5189 25.2519 40.1511 25.6C39.1367 26.5655 37.5814 27.0877 35.945 27.036C35.9342 27.036 35.9261 27.036 35.9152 27.036C34.5547 26.9925 33.1914 26.6607 31.9959 26.0977C31.2466 25.7442 30.6002 25.29 30.0132 24.7868C30.235 24.7651 30.4541 24.7406 30.6759 24.7052C30.684 24.7052 30.6921 24.7052 30.7002 24.7025C30.9274 24.6671 31.152 24.6263 31.3765 24.5774C32.5828 24.3272 33.7811 23.8621 34.7738 23.1169C35.9315 23.5112 37.1649 23.6663 38.3604 23.3589C40.3323 22.8585 42.4259 20.3264 42.6341 18.3084C42.672 17.4788 42.4502 16.7744 42.0688 16.1625C43.3509 15.9476 44.3923 14.7292 44.7034 13.4808C44.9198 12.5099 44.3599 11.6531 44.7115 10.7719C44.7412 10.6958 44.7737 10.6169 44.8062 10.538C46.7374 11.7184 47.2892 13.4291 46.402 15.2269C46.0964 15.8497 45.4878 16.41 45.504 17.1171C45.5148 17.6529 45.8935 18.1533 46.1694 18.6375C46.3533 18.9611 46.5238 19.2929 46.6401 19.6329C47.2243 21.3355 46.3317 23.2366 44.2895 23.9274ZM13.7785 7.95973C13.765 7.41578 13.5189 6.98877 13.5838 6.4693C13.6325 6.0287 13.8597 5.60986 14.2032 5.30797C14.4683 5.04688 14.9038 5.00064 15.342 5.05231C15.342 5.06047 15.342 5.06591 15.3474 5.07407C15.6665 6.68144 16.3671 8.22626 17.5086 9.42295C18.3741 10.2878 19.4642 10.6822 20.5488 11.0956C20.2351 11.0929 19.9267 11.0956 19.6211 11.0956C18.8881 11.1174 18.1686 11.169 17.4328 11.2724C17.1894 11.2996 16.9324 11.4736 16.7945 11.6695C16.5078 12.1373 16.3644 12.6595 16.2941 13.2034C14.7712 13.217 13.7272 12.3222 13.2592 10.8753C12.8616 9.83635 13.8408 9.00139 13.784 7.95701L13.7785 7.95973ZM17.8629 9.08842C18.4255 9.72756 19.2126 10.1654 20.0133 10.5625C20.3676 10.742 20.7328 10.9188 21.0898 11.1065C22.096 11.1418 23.1022 11.2697 24.0003 11.7211C24.6494 12.0475 25.1985 12.412 25.9072 12.5643C26.6781 12.7682 27.4679 12.9858 28.2145 13.3258C28.2226 13.3258 28.2334 13.3258 28.2334 13.3258C29.4695 13.0049 30.6218 12.4092 31.885 12.0992C33.1049 11.7375 34.3329 11.3213 35.6231 11.2969C37.9439 9.79556 41.682 9.73572 42.2987 6.54274C42.8614 4.1276 40.8733 2.74325 38.6553 2.91187C37.8059 2.97443 36.9918 3.27088 36.2155 3.68428C35.4094 4.07049 34.6683 4.5274 33.9813 5.10399C34.8766 4.08136 36.0072 3.20833 37.292 2.73509C37.1757 2.52023 37.0215 2.32713 36.8484 2.16122C34.5844 0.0887735 31.106 0.0452571 28.6256 1.7315C29.6183 1.84029 30.6164 2.0062 31.5306 2.4468C32.5558 2.89012 34.011 4.27175 33.3023 5.49835C32.3475 6.90174 25.304 6.93166 26.1588 4.38054C26.3616 4.00249 26.7268 3.86378 26.9837 3.76043C28.1009 3.34431 29.3965 3.23552 30.492 3.78763C30.6948 3.87466 30.9653 4.11944 30.9707 4.38598C30.9761 4.90817 30.3053 4.84289 29.9672 4.78578C30.4703 4.72595 31.1709 4.49205 30.308 4.1684C29.3316 3.73324 28.1604 3.86651 27.1893 4.27175C27.0108 4.3479 26.7457 4.46213 26.6673 4.63619C26.5131 5.29165 27.687 5.57179 28.182 5.6697C29.5209 5.90904 30.9356 5.86008 32.2339 5.44396C33.1454 5.22366 32.9453 4.5138 32.5179 3.9073C31.4765 2.60726 29.6562 2.34616 28.09 2.12858C26.3238 1.88381 23.8353 1.82397 22.6965 3.45582C22.5559 3.69788 22.4855 3.98073 22.4909 4.26631C22.4314 3.82843 22.5883 3.39327 22.8561 3.05058C22.5748 2.79764 22.2908 2.55559 21.9905 2.33529C21.3008 1.7995 20.5461 1.39425 19.6644 1.57376C18.1415 1.79405 16.1291 2.65622 15.9343 4.36694C15.9046 4.75314 16.0263 5.20734 16.121 5.59626C16.4591 6.85279 17.0244 8.09843 17.8683 9.0857L17.8629 9.08842ZM40.0889 5.0224C39.4776 4.22007 38.2928 4.3887 37.3948 4.47845C38.3496 4.45397 38.6688 5.40316 38.1089 6.09126C37.7059 6.70048 37.0946 7.16828 36.4373 7.47289C35.1227 8.08483 33.654 8.18275 32.2366 8.07668C32.0635 8.0658 31.9337 7.91621 31.9445 7.74215C31.9553 7.598 32.0608 7.48377 32.196 7.45657C32.6396 7.36954 33.0805 7.27707 33.5133 7.15196C34.2328 6.93166 36.1397 6.37955 36.0288 5.4358C35.9774 5.23726 35.807 5.06319 35.6177 4.93265C36.156 5.11215 36.4102 5.62618 36.0748 6.14021C35.6556 6.71136 35.0848 7.09757 34.4573 7.38586C35.3878 7.26619 36.2993 7.02685 37.0891 6.51554C37.5327 6.16741 38.2468 5.69962 38.117 5.05775C38.0521 4.7613 37.7302 4.55188 37.3948 4.47845C38.6742 4.15208 40.143 4.05417 40.7191 5.53099C40.9842 6.3442 40.4405 7.171 39.9103 7.71767C37.9872 9.63237 35.1552 9.89891 32.5991 10.0295C32.4855 10.024 32.3178 10.0186 32.2041 10.0295C30.0511 11.9714 25.0362 11.4954 22.94 9.69221C25.066 11.0657 29.8671 11.3377 31.8038 9.54534C32.0121 9.3604 32.2014 9.39847 32.4259 9.38759C34.4573 9.2788 36.5942 9.15098 38.4145 8.18274C39.2125 7.74215 40.0564 7.13292 40.381 6.25988C40.546 5.81928 40.381 5.36508 40.0943 5.0224H40.0889ZM20.868 3.38783C18.5337 6.86911 26.3508 9.55078 28.8582 9.06122C29.2153 9.00411 29.5561 8.91436 29.7833 8.64782C29.8698 8.31873 29.2883 8.12835 28.9935 8.025C27.6248 7.59256 25.9451 7.65783 24.6305 6.87455C22.5613 5.59355 23.7839 4.13848 25.4879 3.38783C24.2653 4.23367 22.9508 5.46572 24.8631 6.44755C26.2183 7.11117 27.7005 6.95342 29.1801 7.41034C30.9897 7.90261 30.7841 9.45287 28.9475 9.68405C26.2264 10.2661 18.0441 6.95614 20.8653 3.38783H20.868ZM19.5372 3.01522C17.9414 4.45941 18.65 6.17013 19.9402 7.51369C20.3487 7.95973 20.7923 8.37857 21.2629 8.80557C20.6597 8.60703 20.1025 8.28066 19.6021 7.87813C18.8502 7.27163 18.1496 6.41491 18.0225 5.39772C17.8764 4.3751 18.5716 3.26272 19.5372 3.0125V3.01522ZM9.62927 15.1371C10.081 14.5606 10.8194 14.0356 10.979 13.3448C11.1251 12.7138 10.7924 12.0693 10.6274 11.4464C10.5814 11.2724 10.5462 11.0983 10.5192 10.9243C10.4948 10.7502 10.4786 10.5761 10.4732 10.3993C10.4272 8.75661 11.2792 7.58712 12.9941 7.01053C13.005 7.09213 13.0185 7.17372 13.0347 7.25531C13.0347 7.26347 13.0374 7.26891 13.0401 7.27707C13.0563 7.3641 13.0726 7.45113 13.0888 7.53545C13.0969 7.58168 13.105 7.62792 13.1131 7.67415C13.1186 7.70407 13.124 7.73127 13.1267 7.75847C13.1375 7.8319 13.1456 7.90533 13.1483 7.97604C13.1672 8.46016 12.9022 8.85996 12.7209 9.32232C12.4829 9.83091 12.4559 10.519 12.6425 11.0548C13.1429 12.6268 14.3763 13.6766 15.9668 13.7011C15.3528 14.188 14.8172 14.7564 14.4548 15.4989C12.9563 18.9394 16.5781 22.1541 19.613 22.9945C20.5002 23.2665 21.4442 23.2338 22.3422 22.9945C22.5423 23.1114 22.7452 23.2257 22.9508 23.3317C23.0373 23.378 23.1266 23.4188 23.2131 23.4623C23.3322 23.5194 23.4485 23.5792 23.5675 23.6336C23.6865 23.688 23.8055 23.737 23.9245 23.7887C24.0138 23.8267 24.1031 23.8648 24.1923 23.9002C24.333 23.9573 24.4736 24.009 24.617 24.0606C24.6846 24.0851 24.7522 24.1096 24.8198 24.1341C24.9794 24.1885 25.139 24.2401 25.3013 24.2891C25.35 24.3054 25.4014 24.319 25.4501 24.3326C25.6259 24.3843 25.8044 24.4305 25.9829 24.474C26.0154 24.4822 26.0479 24.4904 26.083 24.4985C26.2751 24.5448 26.4671 24.5856 26.6619 24.6209C26.6781 24.6236 26.697 24.6263 26.7133 24.6291C27.0865 24.6971 27.4598 24.7542 27.8385 24.7868C27.6627 24.882 27.4841 24.9745 27.3056 25.0615C26.8431 25.2845 26.3643 25.4803 25.8829 25.649C25.8639 25.6544 25.8477 25.6626 25.8288 25.668C25.6015 25.7469 25.377 25.8176 25.1498 25.8856C25.1174 25.8937 25.0849 25.9046 25.0552 25.9128C24.8307 25.9781 24.6062 26.0379 24.3844 26.0923C22.5342 26.541 20.6192 26.9001 18.7122 26.5057L18.7717 26.4785C17.4437 26.2065 16.2454 25.5347 15.4772 24.591C15.1364 24.1694 14.8524 23.6989 14.5765 23.1686C14.3276 22.6926 14.0734 22.1949 13.6514 21.7924C13.0834 21.2457 12.3152 20.9819 11.5795 20.6202C11.3631 20.5141 11.1548 20.3999 10.952 20.2747C10.7491 20.1524 10.557 20.0191 10.3758 19.8777C8.65011 18.5178 8.43101 16.6684 9.62657 15.1344L9.62927 15.1371Z" fill="#375543"/>
+    </svg></div>
+        <div class="text-caps-lg text-links">award winning roses</div><p>We’ve won 29 RHS Chelsea Flower Show Gold Medals</p></div></div>
+</div></vanilla-slider>
+</div>
+<div id="shopify-section-template--18133014151247__featured_articles_mG4DUb" class="shopify-section"><div
+    class="
+      color-primary bg-background text-text
+ my-xxl relative z-10 max-w-screen mx-auto px-lg
+    "
+    style="--columns:3;--columns-mobile:1.2;--aspect-ratio:3/2"
+  >
+    <vanilla-slider class="block relative z-10" data-async>
+      <div class="pb-xl flex flex-col desktop:flex-row desktop:items-center desktop:justify-between">
+        <div
+          class="font-heading text-heading-md mb-sm desktop:mb-0 text-balance"
+        >Inspiration</div><a
+            href="<?php echo esc_url(home_url('/blogs/news')); ?>"
+            class="underline text-base"
+          >VIEW ALL</a></div>
+      <ul
+        class="
+          relative tablet:[--columns:var(--columns-mobile)]
+          
+          flex align-stretch overflow-x-auto overflow-y-hidden scrollbar-none snap-mandatory snap-x gap-gutter
+           w-full
+        "
+        data-slider
+      >
+        
+
+        
+          <li class="w-[calc(25%-15px)] tablet:w-[calc(40%-15px)] mobile:w-[calc(75%-15px)] shrink-0 relative snap-start overflow-hidden group items-stretch desktop:pr-lg border-border border-r flex flex-col">
+            <a href="<?php echo esc_url(home_url('/blogs/inspiration/the-cotswold-garden-at-chelsea')); ?>" class="flex flex-col h-full">
+              <div class="min-h-[160px]">
+                <div class="text-heading-sm font-heading pb-xs">The Cotswold Garden at Chelsea</div><div class="text-pretty line-clamp-2 text-base">Stepping into a garden should feel like a homecoming, not just a walk through an exhibit. This year at the Chelsea Flower Show, we wanted to capture that exact feeling with The Cotswold Garden. It is a space where the weight of heritage stone meets the soft, fleeting beauty of a rose in full bloom.</div></div>
+              <div class="inline-flex aspect-[217/270] max-w-[217px] tablet:aspect-[176/218] tablet:max-w-[176px] mt-auto"><img src="//www.davidaustinroses.com/cdn/shop/articles/DAR-ChelseaStand-May26-163753_3_a449ff76-b5b0-45bc-b8f5-0c1ef3e82bee.jpg?v=1779183570&amp;width=850" alt="The Cotswold Garden at Chelsea" srcset="//www.davidaustinroses.com/cdn/shop/articles/DAR-ChelseaStand-May26-163753_3_a449ff76-b5b0-45bc-b8f5-0c1ef3e82bee.jpg?v=1779183570&amp;width=320 320w, //www.davidaustinroses.com/cdn/shop/articles/DAR-ChelseaStand-May26-163753_3_a449ff76-b5b0-45bc-b8f5-0c1ef3e82bee.jpg?v=1779183570&amp;width=375 375w, //www.davidaustinroses.com/cdn/shop/articles/DAR-ChelseaStand-May26-163753_3_a449ff76-b5b0-45bc-b8f5-0c1ef3e82bee.jpg?v=1779183570&amp;width=414 414w, //www.davidaustinroses.com/cdn/shop/articles/DAR-ChelseaStand-May26-163753_3_a449ff76-b5b0-45bc-b8f5-0c1ef3e82bee.jpg?v=1779183570&amp;width=600 600w, //www.davidaustinroses.com/cdn/shop/articles/DAR-ChelseaStand-May26-163753_3_a449ff76-b5b0-45bc-b8f5-0c1ef3e82bee.jpg?v=1779183570&amp;width=640 640w, //www.davidaustinroses.com/cdn/shop/articles/DAR-ChelseaStand-May26-163753_3_a449ff76-b5b0-45bc-b8f5-0c1ef3e82bee.jpg?v=1779183570&amp;width=720 720w, //www.davidaustinroses.com/cdn/shop/articles/DAR-ChelseaStand-May26-163753_3_a449ff76-b5b0-45bc-b8f5-0c1ef3e82bee.jpg?v=1779183570&amp;width=768 768w" width="850" height="532" loading="lazy" sizes="(min-width: 1024px) 99vw, 94vw" class="w-full h-full object-cover" style="">
+              </div>
+            </a>
+          </li>
+        
+          <li class="w-[calc(25%-15px)] tablet:w-[calc(40%-15px)] mobile:w-[calc(75%-15px)] shrink-0 relative snap-start overflow-hidden group items-stretch desktop:pr-lg border-border border-r flex flex-col">
+            <a href="<?php echo esc_url(home_url('/blogs/inspiration/finding-the-right-rose-for-your-garden-helping-it-thrive')); ?>" class="flex flex-col h-full">
+              <div class="min-h-[160px]">
+                <div class="text-heading-sm font-heading pb-xs">Finding the Right Rose for Your Garden: Helping It Thrive</div><div class="text-pretty line-clamp-2 text-base">Now you’ve chosen your rose, what does it need to grow at its best.
+Throughout this series, we’ve considered colour, character and the part a rose might play in the garden. This final step is a quieter one. It is here, in the setting you give it, that a rose settles and begins to flourish.</div></div>
+              <div class="inline-flex aspect-[217/270] max-w-[217px] tablet:aspect-[176/218] tablet:max-w-[176px] mt-auto"><img src="//www.davidaustinroses.com/cdn/shop/articles/Kew_Gardens_Nepeta__DSF7533_1.jpg?v=1776251893&amp;width=850" alt="Kew_Gardens white rose bred by David Austin" srcset="//www.davidaustinroses.com/cdn/shop/articles/Kew_Gardens_Nepeta__DSF7533_1.jpg?v=1776251893&amp;width=320 320w, //www.davidaustinroses.com/cdn/shop/articles/Kew_Gardens_Nepeta__DSF7533_1.jpg?v=1776251893&amp;width=375 375w, //www.davidaustinroses.com/cdn/shop/articles/Kew_Gardens_Nepeta__DSF7533_1.jpg?v=1776251893&amp;width=414 414w, //www.davidaustinroses.com/cdn/shop/articles/Kew_Gardens_Nepeta__DSF7533_1.jpg?v=1776251893&amp;width=600 600w, //www.davidaustinroses.com/cdn/shop/articles/Kew_Gardens_Nepeta__DSF7533_1.jpg?v=1776251893&amp;width=640 640w, //www.davidaustinroses.com/cdn/shop/articles/Kew_Gardens_Nepeta__DSF7533_1.jpg?v=1776251893&amp;width=720 720w, //www.davidaustinroses.com/cdn/shop/articles/Kew_Gardens_Nepeta__DSF7533_1.jpg?v=1776251893&amp;width=768 768w" width="850" height="532" loading="lazy" sizes="(min-width: 1024px) 99vw, 94vw" class="w-full h-full object-cover" style="">
+              </div>
+            </a>
+          </li>
+        
+          <li class="w-[calc(25%-15px)] tablet:w-[calc(40%-15px)] mobile:w-[calc(75%-15px)] shrink-0 relative snap-start overflow-hidden group items-stretch desktop:pr-lg border-border border-r flex flex-col">
+            <a href="<?php echo esc_url(home_url('/blogs/inspiration/finding-the-right-rose-for-your-garden-how-often-would-you-like-your-rose-to-flower-1')); ?>" class="flex flex-col h-full">
+              <div class="min-h-[160px]">
+                <div class="text-heading-sm font-heading pb-xs">Finding the Right Rose for Your Garden: How Often Would You Like Your Rose to Flower?</div><div class="text-pretty line-clamp-2 text-base">When choosing a rose, colour and form often come first. Yet one of the most defining characteristics is something quieter. How often it flowers, and how that rhythm sits within your garden.
+Some roses return again and again, offering a steady presence through the season. Others gather their energy for a single, remarkable display. Each has its place, and each creates a different atmosphere.</div></div>
+              <div class="inline-flex aspect-[217/270] max-w-[217px] tablet:aspect-[176/218] tablet:max-w-[176px] mt-auto"><img src="//www.davidaustinroses.com/cdn/shop/articles/The_Mayflower__22_0705_139_823e66f6-d5b3-4f73-97b4-a1a2a91c1c89.jpg?v=1775810810&amp;width=850" alt="Finding the Right Rose for Your Garden: How Often Would You Like Your Rose to Flower?" srcset="//www.davidaustinroses.com/cdn/shop/articles/The_Mayflower__22_0705_139_823e66f6-d5b3-4f73-97b4-a1a2a91c1c89.jpg?v=1775810810&amp;width=320 320w, //www.davidaustinroses.com/cdn/shop/articles/The_Mayflower__22_0705_139_823e66f6-d5b3-4f73-97b4-a1a2a91c1c89.jpg?v=1775810810&amp;width=375 375w, //www.davidaustinroses.com/cdn/shop/articles/The_Mayflower__22_0705_139_823e66f6-d5b3-4f73-97b4-a1a2a91c1c89.jpg?v=1775810810&amp;width=414 414w, //www.davidaustinroses.com/cdn/shop/articles/The_Mayflower__22_0705_139_823e66f6-d5b3-4f73-97b4-a1a2a91c1c89.jpg?v=1775810810&amp;width=600 600w, //www.davidaustinroses.com/cdn/shop/articles/The_Mayflower__22_0705_139_823e66f6-d5b3-4f73-97b4-a1a2a91c1c89.jpg?v=1775810810&amp;width=640 640w, //www.davidaustinroses.com/cdn/shop/articles/The_Mayflower__22_0705_139_823e66f6-d5b3-4f73-97b4-a1a2a91c1c89.jpg?v=1775810810&amp;width=720 720w, //www.davidaustinroses.com/cdn/shop/articles/The_Mayflower__22_0705_139_823e66f6-d5b3-4f73-97b4-a1a2a91c1c89.jpg?v=1775810810&amp;width=768 768w" width="850" height="532" loading="lazy" sizes="(min-width: 1024px) 99vw, 94vw" class="w-full h-full object-cover" style="">
+              </div>
+            </a>
+          </li>
+        
+          <li class="w-[calc(25%-15px)] tablet:w-[calc(40%-15px)] mobile:w-[calc(75%-15px)] shrink-0 relative snap-start overflow-hidden group items-stretch desktop:pr-lg border-border border-r flex flex-col">
+            <a href="<?php echo esc_url(home_url('/blogs/inspiration/roses-perfect-for-balcony-gardens-charming-varieties-for-compact-spaces')); ?>" class="flex flex-col h-full">
+              <div class="min-h-[160px]">
+                <div class="text-heading-sm font-heading pb-xs">Roses for Pots and Small Spaces</div><div class="text-pretty line-clamp-2 text-base">A rose in a pot brings the garden closer, lifting fragrance and colour to where they can be most easily enjoyed. Whether placed beside a doorway, gathered on a balcony, or framing a quiet seating area, container-grown roses offer a simple way to create beauty, even in the smallest of spaces.</div></div>
+              <div class="inline-flex aspect-[217/270] max-w-[217px] tablet:aspect-[176/218] tablet:max-w-[176px] mt-auto"><img src="//www.davidaustinroses.com/cdn/shop/articles/Princess_Anne_da.somerset-57_2.jpg?v=1775135647&amp;width=850" alt="Princess Anne pink rose bred by David Austin in a pot" srcset="//www.davidaustinroses.com/cdn/shop/articles/Princess_Anne_da.somerset-57_2.jpg?v=1775135647&amp;width=320 320w, //www.davidaustinroses.com/cdn/shop/articles/Princess_Anne_da.somerset-57_2.jpg?v=1775135647&amp;width=375 375w, //www.davidaustinroses.com/cdn/shop/articles/Princess_Anne_da.somerset-57_2.jpg?v=1775135647&amp;width=414 414w, //www.davidaustinroses.com/cdn/shop/articles/Princess_Anne_da.somerset-57_2.jpg?v=1775135647&amp;width=600 600w, //www.davidaustinroses.com/cdn/shop/articles/Princess_Anne_da.somerset-57_2.jpg?v=1775135647&amp;width=640 640w, //www.davidaustinroses.com/cdn/shop/articles/Princess_Anne_da.somerset-57_2.jpg?v=1775135647&amp;width=720 720w, //www.davidaustinroses.com/cdn/shop/articles/Princess_Anne_da.somerset-57_2.jpg?v=1775135647&amp;width=768 768w" width="850" height="532" loading="lazy" sizes="(min-width: 1024px) 99vw, 94vw" class="w-full h-full object-cover" style="">
+              </div>
+            </a>
+          </li>
+        
+          <li class="w-[calc(25%-15px)] tablet:w-[calc(40%-15px)] mobile:w-[calc(75%-15px)] shrink-0 relative snap-start overflow-hidden group items-stretch desktop:pr-lg border-border border-r flex flex-col">
+            <a href="<?php echo esc_url(home_url('/blogs/inspiration/finding-the-right-rose-for-your-garden-choosing-the-size-of-your-rose')); ?>" class="flex flex-col h-full">
+              <div class="min-h-[160px]">
+                <div class="text-heading-sm font-heading pb-xs">Finding the Right Rose for your Garden: Choosing the Size of Your Rose</div><div class="text-pretty line-clamp-2 text-base">Each rose has its own natural stature. Some remain compact and neatly shaped, while others reach outward or climb upwards, filling their space with ease. Understanding this from the outset helps you choose a rose that will sit comfortably in your garden, without needing to be held back.</div></div>
+              <div class="inline-flex aspect-[217/270] max-w-[217px] tablet:aspect-[176/218] tablet:max-w-[176px] mt-auto"><img src="//www.davidaustinroses.com/cdn/shop/articles/2_Rosa_Olivia_Rose_Austin_and_The_Lady_Gardener__15A4467_V2_391ddc4c-faec-4880-bcc6-7f1f04209c7d.jpg?v=1775028833&amp;width=850" alt="The Lady Gardener apricot shrub rose bred by David Austin" srcset="//www.davidaustinroses.com/cdn/shop/articles/2_Rosa_Olivia_Rose_Austin_and_The_Lady_Gardener__15A4467_V2_391ddc4c-faec-4880-bcc6-7f1f04209c7d.jpg?v=1775028833&amp;width=320 320w, //www.davidaustinroses.com/cdn/shop/articles/2_Rosa_Olivia_Rose_Austin_and_The_Lady_Gardener__15A4467_V2_391ddc4c-faec-4880-bcc6-7f1f04209c7d.jpg?v=1775028833&amp;width=375 375w, //www.davidaustinroses.com/cdn/shop/articles/2_Rosa_Olivia_Rose_Austin_and_The_Lady_Gardener__15A4467_V2_391ddc4c-faec-4880-bcc6-7f1f04209c7d.jpg?v=1775028833&amp;width=414 414w, //www.davidaustinroses.com/cdn/shop/articles/2_Rosa_Olivia_Rose_Austin_and_The_Lady_Gardener__15A4467_V2_391ddc4c-faec-4880-bcc6-7f1f04209c7d.jpg?v=1775028833&amp;width=600 600w, //www.davidaustinroses.com/cdn/shop/articles/2_Rosa_Olivia_Rose_Austin_and_The_Lady_Gardener__15A4467_V2_391ddc4c-faec-4880-bcc6-7f1f04209c7d.jpg?v=1775028833&amp;width=640 640w, //www.davidaustinroses.com/cdn/shop/articles/2_Rosa_Olivia_Rose_Austin_and_The_Lady_Gardener__15A4467_V2_391ddc4c-faec-4880-bcc6-7f1f04209c7d.jpg?v=1775028833&amp;width=720 720w, //www.davidaustinroses.com/cdn/shop/articles/2_Rosa_Olivia_Rose_Austin_and_The_Lady_Gardener__15A4467_V2_391ddc4c-faec-4880-bcc6-7f1f04209c7d.jpg?v=1775028833&amp;width=768 768w" width="850" height="532" loading="lazy" sizes="(min-width: 1024px) 99vw, 94vw" class="w-full h-full object-cover" style="">
+              </div>
+            </a>
+          </li>
+        
+          <li class="w-[calc(25%-15px)] tablet:w-[calc(40%-15px)] mobile:w-[calc(75%-15px)] shrink-0 relative snap-start overflow-hidden group items-stretch desktop:pr-lg border-border border-r flex flex-col">
+            <a href="<?php echo esc_url(home_url('/blogs/inspiration/finding-the-right-rose-for-your-garden-choosing-roses-for-fragrance')); ?>" class="flex flex-col h-full">
+              <div class="min-h-[160px]">
+                <div class="text-heading-sm font-heading pb-xs">Finding the Right Rose for Your Garden: Choosing Roses for Fragrance</div><div class="text-pretty line-clamp-2 text-base">Fragrance is one of the most memorable qualities a rose can offer. A single bloom can perfume a whole corner of the garden, while a path edged with scented roses can transform an ordinary walk into something quietly special. Yet not every rose smells the same, and understanding the different types of fragrance can help you choose varieties that bring the experience you are hoping for.</div></div>
+              <div class="inline-flex aspect-[217/270] max-w-[217px] tablet:aspect-[176/218] tablet:max-w-[176px] mt-auto"><img src="//www.davidaustinroses.com/cdn/shop/articles/Scepter_d_Isle_-_190701_103_cropped_fb1e63d0-b42a-474a-811c-d9e4d9fe33e5.jpg?v=1774343260&amp;width=850" alt="Scepter_d_Isle pink shrub rose bred by David Austin" srcset="//www.davidaustinroses.com/cdn/shop/articles/Scepter_d_Isle_-_190701_103_cropped_fb1e63d0-b42a-474a-811c-d9e4d9fe33e5.jpg?v=1774343260&amp;width=320 320w, //www.davidaustinroses.com/cdn/shop/articles/Scepter_d_Isle_-_190701_103_cropped_fb1e63d0-b42a-474a-811c-d9e4d9fe33e5.jpg?v=1774343260&amp;width=375 375w, //www.davidaustinroses.com/cdn/shop/articles/Scepter_d_Isle_-_190701_103_cropped_fb1e63d0-b42a-474a-811c-d9e4d9fe33e5.jpg?v=1774343260&amp;width=414 414w, //www.davidaustinroses.com/cdn/shop/articles/Scepter_d_Isle_-_190701_103_cropped_fb1e63d0-b42a-474a-811c-d9e4d9fe33e5.jpg?v=1774343260&amp;width=600 600w, //www.davidaustinroses.com/cdn/shop/articles/Scepter_d_Isle_-_190701_103_cropped_fb1e63d0-b42a-474a-811c-d9e4d9fe33e5.jpg?v=1774343260&amp;width=640 640w, //www.davidaustinroses.com/cdn/shop/articles/Scepter_d_Isle_-_190701_103_cropped_fb1e63d0-b42a-474a-811c-d9e4d9fe33e5.jpg?v=1774343260&amp;width=720 720w, //www.davidaustinroses.com/cdn/shop/articles/Scepter_d_Isle_-_190701_103_cropped_fb1e63d0-b42a-474a-811c-d9e4d9fe33e5.jpg?v=1774343260&amp;width=768 768w" width="850" height="532" loading="lazy" sizes="(min-width: 1024px) 99vw, 94vw" class="w-full h-full object-cover" style="">
+              </div>
+            </a>
+          </li>
+        
+      </ul>
+
+      
+      <div class="px-lg flex gap-gutter no-js:hidden absolute z-20 inset-0 tablet:hidden pointer-events-none">
+        
+        <div class="flex-1 flex items-center justify-between gap-gutter">
+          <div class="aspect-[var(--aspect-ratio)] flex items-center max-h-full justify-start">
+            <button
+              aria-label="Previous"
+              class="translate-x-md button-tertiary 
+    border-button-border text-button-text bg-button-background
+    supports-hover:hover:border-button-border-hover supports-hover:hover:text-button-text-hover
+    supports-hover:hover:bg-button-background-hover rounded-[25px]
+  
+    transition-all flex items-center justify-center rounded-full
+  
+    !w-[50px] !h-[50px]
+  
+ transition-all pointer-events-none opacity-0"
+              data-prev
+            ><svg
+      class="rotate-180 max-w-full"
+      role="presentation"
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M7.66602 4.58334L12.7868 9.70418C12.9493 9.86668 12.9493 10.1292 12.7868 10.2917L7.66602 15.4125" stroke="currentColor" stroke-miterlimit="10"/>
+    </svg></button>
+          </div>
+          <div class="aspect-[var(--aspect-ratio)] flex items-center max-h-full justify-end">
+            <button
+              aria-label="Next"
+              class="-translate-x-md button-tertiary 
+    border-button-border text-button-text bg-button-background
+    supports-hover:hover:border-button-border-hover supports-hover:hover:text-button-text-hover
+    supports-hover:hover:bg-button-background-hover rounded-[25px]
+  
+    transition-all flex items-center justify-center rounded-full
+  
+    !w-[50px] !h-[50px]
+  
+ transition-all pointer-events-auto"
+              data-next
+            ><svg
+      class=" max-w-full"
+      role="presentation"
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M7.66602 4.58334L12.7868 9.70418C12.9493 9.86668 12.9493 10.1292 12.7868 10.2917L7.66602 15.4125" stroke="currentColor" stroke-miterlimit="10"/>
+    </svg></button>
+          </div>
+        </div>
+      </div></vanilla-slider>
+  </div><script type="application/json" id="tracking-promotion-data">
+  {
+    "creative_name": "Featured articles",
+    "creative_slot": "index_14",
+    "promotion_id": "index_featured-articles_p-discover-our-latest-news-on-our-sustainability-initiatives-brand-collaborations-flower-shows-and-more-p",
+    "promotion_name": "Featured articles: <p>Discover our latest news on our sustainability initiatives, brand collaborations, flower shows and more.</p>"
+  }
+</script>
+
+</div>
+<div id="shopify-section-template--18133014151247__spacer_NVUbJh" class="shopify-section"><div
+  class="mb-xxl"
+></div>
+
+
+</div>
+<div id="shopify-section-template--18133014151247__hero_kmdNQn" class="shopify-section"><ul
+  class="color-primary bg-background text-text
+ max-w-screen mx-auto   px-lg   z-10 relative flex overflow-x-auto overflow-y-hidden scrollbar-none snap-mandatory snap-x empty:hidden"
+  data-slider
+><li
+      class="w-full shrink-0 snap-start relative"
+      data-slide
+      
+    ><div class="color-green bg-background text-text
+ relative h-full">
+  <div class="pointer-events-none z-20 px-lg py-[40px] flex flex-col justify-center justify-center items-center text-center items-center text-center absolute inset-0 w-full tablet:[--columns:1]">
+
+    
+<div class="w-full font-domaine text-heading-lg tablet:px-xl">Order Our Handbook of Roses 2026</div><div class="max-w-grid mt-sm rte  text-xl font-heading tablet:px-xl"><p>Why not order a copy today and look forward to receiving the newest edition of our handbook on your doorstep.</p></div>
+
+    <div class=" w-full ">
+    <div class=" empty:hidden mt-lg tablet:px-xl">
+      <div class="flex flex-col tablet:flex-col gap-sm desktop:flex-row desktop:gap-md justify-center items-center"><a
+            href="https://www.davidaustinroses.com/pages/catalog-request"
+            class="
+    appearance-none outline-none transition-colors inline-flex items-center justify-center gap-[10px]
+    button-outline py-sm px-lg border text-lg
+  
+    border-current bg-transparent supports-hover:hover:bg-links supports-hover:hover:border-links
+    supports-hover:hover:text-background rounded-[25px]
+  
+ w-fit pointer-events-auto relative z-30"
+          >Order your handbook</a></div>
+    </div>
+    </div></div>
+
+    <div class="relative h-full w-full object-cover"><img src="//www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=2000" alt="" srcset="//www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=320 320w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=375 375w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=414 414w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=600 600w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=640 640w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=720 720w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=768 768w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=900 900w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=1024 1024w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=1100 1100w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=1280 1280w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=1366 1366w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=1440 1440w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=1536 1536w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=1600 1600w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=1700 1700w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=1800 1800w, //www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_bed8ff32-d565-4e34-b060-472b118934cf.jpg?v=1759323026&amp;width=1920 1920w" width="2000" height="601" loading="lazy" sizes="(min-width: 1024px) 99vw, 94vw" class="w-full h-full object-cover relative z-0 block tablet:hidden" style=""><img src="//www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_074497ce-5b67-43b0-bdc5-3a03424ef921.jpg?v=1759409926&amp;width=360" alt="" srcset="//www.davidaustinroses.com/cdn/shop/files/4acdcced9bd25f6f7cf8a48da556bdcd01da460e_074497ce-5b67-43b0-bdc5-3a03424ef921.jpg?v=1759409926&amp;width=320 320w" width="360" height="389" loading="lazy" sizes="(min-width: 1024px) 99vw, 94vw" class="w-full h-full object-cover relative z-0 tablet:block hidden" style=""><div
+  class="pointer-events-none absolute z-10 left-0 bottom-0 w-full top-0 tablet:hidden bg-gradient"
+></div>
+</div>
+</div>
+</li></ul><script type="application/json" id="tracking-promotion-data">
+  {
+    "creative_name": "Hero",
+    "creative_slot": "index_16",
+    "promotion_id": "index_hero_order-our-handbook-of-roses-2026",
+    "promotion_name": "Hero: Order Our Handbook of Roses 2026"
+  }
+</script>
+
+</div>
+<div id="shopify-section-template--18133014151247__spacer_R87L66" class="shopify-section"><div
+  class="mb-md"
+></div>
+
+
+</div>
+    </main>
